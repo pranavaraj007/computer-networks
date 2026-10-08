@@ -1,0 +1,2907 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 5 0 R 12 0 R 14 0 R 16 0 R 18 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 7431
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 454.8727 810.7087 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 31.1811 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 755.8661 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 8 9.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(Exp No: 1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 98.70866 9 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 13 Tf
+17 TL
+(Study of various Network commands used in Linux and Windows) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n
+0 35 m
+481.8898 35 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 35 l
+S
+n
+481.8898 0 m
+481.8898 35 l
+S
+n
+90.70866 0 m
+90.70866 35 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 749.8661 cm
+Q
+q
+1 0 0 1 56.69291 720.8661 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 2.375 m
+31.044 2.375 l
+S
+BT
+1 0 0 1 0 4 Tm
+/F2 13 Tf
+17 TL
+(AIM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 681.8661 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 22 Tm
+/F3 12 Tf
+17 TL
+(To study and practise the various network commands used in Linux and Windows operating) Tj
+T*
+(systems.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 652.8661 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 2.375 m
+180.557 2.375 l
+S
+BT
+1 0 0 1 0 4 Tm
+/F2 13 Tf
+17 TL
+(ALGORITHM / PROCEDURE:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 630.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(1.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Open the Terminal in Linux and the Command Prompt \() Tj
+/F4 10.5 Tf
+(cmd) Tj
+/F3 12 Tf
+(\) in Windows.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 610.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(2.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(hostname) Tj
+/F3 12 Tf
+( to see the name of the computer.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 573.8661 cm
+q
+BT
+1 0 0 1 4 22 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 22 Tm
+-0.132445 Tw
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(ifconfig) Tj
+/F3 12 Tf
+( \(Linux\) and ) Tj
+/F4 10.5 Tf
+(ipconfig) Tj
+/F3 12 Tf
+( \(Windows\) to see the IP address, subnet mask and MAC) Tj
+T*
+0 Tw
+(address.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 536.8661 cm
+q
+BT
+1 0 0 1 4 22 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(4.) Tj
+ET
+BT
+1 0 0 1 24 22 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(ping) Tj
+/F3 12 Tf
+( to check whether the remote system is reachable. Note the packet loss and the time) Tj
+T*
+(taken.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 516.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(traceroute) Tj
+/F3 12 Tf
+( \(Linux\) and ) Tj
+/F4 10.5 Tf
+(tracert) Tj
+/F3 12 Tf
+( \(Windows\) to see the path taken by the packets.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 496.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(6.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(nslookup) Tj
+/F3 12 Tf
+( and ) Tj
+/F4 10.5 Tf
+(dig) Tj
+/F3 12 Tf
+( to find the IP address of a domain name.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 476.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(7.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(netstat) Tj
+/F3 12 Tf
+( to see the active connections and open ports.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 456.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(8.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(arp -a) Tj
+/F3 12 Tf
+( to see the IP address to MAC address table.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 436.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(9.) Tj
+ET
+BT
+1 0 0 1 24 5 Tm
+17 TL
+/F3 12 Tf
+0 0 0 rg
+(Use ) Tj
+/F4 10.5 Tf
+(route) Tj
+/F3 12 Tf
+( \(Linux\) and ) Tj
+/F4 10.5 Tf
+(route print) Tj
+/F3 12 Tf
+( \(Windows\) to see the routing table.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 416.8661 cm
+q
+BT
+1 0 0 1 4 5 Tm
+/F3 12 Tf
+14.4 TL
+0 0 0 rg
+(10.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 5 Tm
+/F3 12 Tf
+17 TL
+2.2 0 Td
+(Note down the output of each command.) Tj
+T*
+-2.2 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 407.8661 cm
+Q
+q
+1 0 0 1 56.69291 383.8661 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 12 Tf
+16 TL
+(Commands used:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 169.8661 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 193 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Purpose) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 193 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Linux) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 193 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Windows) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 172 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(Host name) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 172 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(hostname) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 172 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(hostname) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 151 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(IP configuration) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 151 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(ifconfig / ip addr) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 151 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(ipconfig /all) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 130 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(Check connectivity) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 130 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(ping -c 4 google.com) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 130 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(ping google.com) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 109 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(Trace the route) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 109 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(traceroute google.com) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 109 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(tracert google.com) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 88 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(DNS lookup) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 88 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(nslookup / dig) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 88 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(nslookup) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 67 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(Active connections) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 67 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(netstat -tuln) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 67 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(netstat -an) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 46 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(ARP table) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 46 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(arp -a) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 46 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(arp -a) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(Routing table) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(route -n) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(route print) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 11.5 Tf
+14 TL
+(MAC address) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 147.7323 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(ip link) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 317.811 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4.5 Tm
+/F4 9.5 Tf
+14 TL
+(getmac) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.8 w
+n
+0 210 m
+481.8898 210 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 210 l
+S
+n
+481.8898 0 m
+481.8898 210 l
+S
+n
+0 189 m
+481.8898 189 l
+S
+n
+0 168 m
+481.8898 168 l
+S
+n
+0 147 m
+481.8898 147 l
+S
+n
+0 126 m
+481.8898 126 l
+S
+n
+0 105 m
+481.8898 105 l
+S
+n
+0 84 m
+481.8898 84 l
+S
+n
+0 63 m
+481.8898 63 l
+S
+n
+0 42 m
+481.8898 42 l
+S
+n
+0 21 m
+481.8898 21 l
+S
+n
+141.7323 0 m
+141.7323 210 l
+S
+n
+311.811 0 m
+311.811 210 l
+S
+Q
+Q
+Q
+endstream
+endobj
+5 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/Length 4530
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 454.8727 810.7087 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 31.1811 Tm
+(2) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 773.8661 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 2.375 m
+69.316 2.375 l
+S
+BT
+1 0 0 1 0 4 Tm
+/F2 13 Tf
+17 TL
+(DIAGRAM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 749.8661 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 12 Tf
+16 TL
+(Fig 1: Network commands and the layers they work in) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 558.7795 cm
+1 w
+0 0 0 RG
+n
+48.18898 148.8189 385.5118 38.26772 re
+S
+BT
+/F2 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 194.1089 171.4961 Tm
+(Application Layer) Tj
+T*
+ET
+BT
+/F4 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 181.0949 157.3228 Tm
+(nslookup, dig, telnet) Tj
+T*
+ET
+n
+240.9449 148.8189 m
+240.9449 141.7323 l
+S
+0 0 0 RG
+n
+48.18898 103.4646 385.5118 38.26772 re
+S
+BT
+/F2 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 197.7809 126.1417 Tm
+(Transport Layer) Tj
+T*
+ET
+BT
+/F4 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 209.5949 111.9685 Tm
+(netstat, ss) Tj
+T*
+ET
+n
+240.9449 103.4646 m
+240.9449 96.37795 l
+S
+0 0 0 RG
+n
+48.18898 58.11024 385.5118 38.26772 re
+S
+BT
+/F2 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 201.7889 80.7874 Tm
+(Network Layer) Tj
+T*
+ET
+BT
+/F4 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 87.04488 66.61417 Tm
+(ping, traceroute / tracert, ifconfig / ipconfig, route) Tj
+T*
+ET
+n
+240.9449 58.11024 m
+240.9449 51.02362 l
+S
+0 0 0 RG
+n
+48.18898 12.75591 385.5118 38.26772 re
+S
+BT
+/F2 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 197.9429 35.43307 Tm
+(Data Link Layer) Tj
+T*
+ET
+BT
+/F4 9.5 Tf
+11.4 TL
+ET
+BT
+1 0 0 1 209.5949 21.25984 Tm
+(arp, getmac) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 550.7795 cm
+Q
+q
+1 0 0 1 56.69291 526.7795 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 12 Tf
+16 TL
+(Fig 2: Working of ping command) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 381.0472 cm
+1 w
+n
+31.1811 116.2205 130.3937 25.51181 re
+S
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 67.81645 125.2913 Tm
+(Source \(PC\)) Tj
+T*
+ET
+n
+96.37795 116.2205 m
+96.37795 5.669291 l
+S
+n
+320.315 116.2205 130.3937 25.51181 re
+S
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 338.0083 125.2913 Tm
+(Destination \(Server\)) Tj
+T*
+ET
+n
+385.5118 116.2205 m
+385.5118 5.669291 l
+S
+n
+96.37795 82.20472 m
+385.5118 82.20472 l
+S
+n
+385.5118 82.20472 m
+377.5118 85.20472 l
+377.5118 79.20472 l
+h
+B*
+BT
+/F3 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 190.2239 86.20472 Tm
+(1. ICMP Echo Request) Tj
+T*
+ET
+n
+385.5118 45.35433 m
+96.37795 45.35433 l
+S
+n
+96.37795 45.35433 m
+104.378 48.35433 l
+104.378 42.35433 l
+h
+B*
+BT
+/F3 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 194.8054 49.35433 Tm
+(2. ICMP Echo Reply) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 352.0472 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 2.375 m
+58.5 2.375 l
+S
+BT
+1 0 0 1 0 4 Tm
+/F2 13 Tf
+17 TL
+(OUTPUT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 328.0472 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 12 Tf
+16 TL
+(Linux:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 275.4472 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 48.6 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 28.6 481.8898 -28.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 33.6 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 11.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ hostname) Tj
+T*
+(pranavraj-VirtualBox) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 48.6 m
+481.8898 48.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 48.6 l
+S
+n
+481.8898 0 m
+481.8898 48.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 267.4472 cm
+Q
+q
+1 0 0 1 56.69291 140.4472 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 127 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 107 481.8898 -107 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 112 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 90.2 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ ifconfig) Tj
+T*
+(enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500) Tj
+T*
+(        inet 192.168.1.10  netmask 255.255.255.0  broadcast 192.168.1.255) Tj
+T*
+(        inet6 fe80::a00:27ff:fe4e:66a1  prefixlen 64  scopeid 0x20<link>) Tj
+T*
+(        ether 08:00:27:4e:66:a1  txqueuelen 1000  \(Ethernet\)) Tj
+T*
+(        RX packets 2543  bytes 2154321 \(2.1 MB\)) Tj
+T*
+(        TX packets 1987  bytes 312456 \(312.4 KB\)) Tj
+T*
+T*
+(lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536) Tj
+T*
+(        inet 127.0.0.1  netmask 255.0.0.0) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 127 m
+481.8898 127 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 127 l
+S
+n
+481.8898 0 m
+481.8898 127 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 132.4472 cm
+Q
+endstream
+endobj
+12 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+13 0 obj
+<<
+/Length 6800
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 454.8727 810.7087 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 31.1811 Tm
+(3) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 663.8661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 127 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 107 481.8898 -107 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 112 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 90.2 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ ping -c 4 google.com) Tj
+T*
+(PING google.com \(142.250.195.78\) 56\(84\) bytes of data.) Tj
+T*
+(64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=1 ttl=117 time=14.2 ms) Tj
+T*
+(64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=2 ttl=117 time=14.8 ms) Tj
+T*
+(64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=3 ttl=117 time=13.9 ms) Tj
+T*
+(64 bytes from maa03s45-in-f14.1e100.net \(142.250.195.78\): icmp_seq=4 ttl=117 time=15.2 ms) Tj
+T*
+T*
+(--- google.com ping statistics ---) Tj
+T*
+(4 packets transmitted, 4 received, 0% packet loss, time 3005ms) Tj
+T*
+(rtt min/avg/max/mdev = 13.904/14.525/15.230/0.512 ms) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 127 m
+481.8898 127 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 127 l
+S
+n
+481.8898 0 m
+481.8898 127 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 655.8661 cm
+Q
+q
+1 0 0 1 56.69291 558.2661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 97.6 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 77.6 481.8898 -77.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 82.6 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 60.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ traceroute google.com) Tj
+T*
+(traceroute to google.com \(142.250.195.78\), 30 hops max, 60 byte packets) Tj
+T*
+( 1  _gateway \(192.168.1.1\)  1.102 ms  1.045 ms  0.987 ms) Tj
+T*
+( 2  10.20.0.1 \(10.20.0.1\)  4.321 ms  4.287 ms  4.410 ms) Tj
+T*
+( 3  172.16.5.9 \(172.16.5.9\)  8.765 ms  8.801 ms  8.730 ms) Tj
+T*
+( 4  72.14.215.85 \(72.14.215.85\)  12.543 ms  12.498 ms  12.610 ms) Tj
+T*
+( 5  maa03s45-in-f14.1e100.net \(142.250.195.78\)  14.230 ms  14.187 ms  14.301 ms) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 97.6 m
+481.8898 97.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 97.6 l
+S
+n
+481.8898 0 m
+481.8898 97.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 550.2661 cm
+Q
+q
+1 0 0 1 56.69291 452.6661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 97.6 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 77.6 481.8898 -77.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 82.6 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 60.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ nslookup google.com) Tj
+T*
+(Server:         192.168.1.1) Tj
+T*
+(Address:        192.168.1.1#53) Tj
+T*
+T*
+(Non-authoritative answer:) Tj
+T*
+(Name:   google.com) Tj
+T*
+(Address: 142.250.195.78) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 97.6 m
+481.8898 97.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 97.6 l
+S
+n
+481.8898 0 m
+481.8898 97.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 444.6661 cm
+Q
+q
+1 0 0 1 56.69291 396.0661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 48.6 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 28.6 481.8898 -28.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 33.6 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 11.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ dig google.com +short) Tj
+T*
+(142.250.195.78) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 48.6 m
+481.8898 48.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 48.6 l
+S
+n
+481.8898 0 m
+481.8898 48.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 388.0661 cm
+Q
+q
+1 0 0 1 56.69291 290.4661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 97.6 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 77.6 481.8898 -77.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 82.6 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 60.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ netstat -tuln) Tj
+T*
+(Active Internet connections \(only servers\)) Tj
+T*
+(Proto Recv-Q Send-Q Local Address           Foreign Address         State) Tj
+T*
+(tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN) Tj
+T*
+(tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN) Tj
+T*
+(tcp6       0      0 :::80                   :::*                    LISTEN) Tj
+T*
+(udp        0      0 0.0.0.0:68              0.0.0.0:*) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 97.6 m
+481.8898 97.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 97.6 l
+S
+n
+481.8898 0 m
+481.8898 97.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 282.4661 cm
+Q
+q
+1 0 0 1 56.69291 224.0661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 58.4 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 38.4 481.8898 -38.4 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 43.4 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 21.6 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ arp -a) Tj
+T*
+(_gateway \(192.168.1.1\) at c4:e9:84:2a:5b:10 [ether] on enp0s3) Tj
+T*
+(? \(192.168.1.12\) at 3c:52:82:7d:11:9e [ether] on enp0s3) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 58.4 m
+481.8898 58.4 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 58.4 l
+S
+n
+481.8898 0 m
+481.8898 58.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 216.0661 cm
+Q
+q
+1 0 0 1 56.69291 138.0661 cm
+q
+0.239216 0.239216 0.239216 rg
+n
+0 78 481.8898 -20 re
+f*
+0.188235 0.039216 0.141176 rg
+n
+0 58 481.8898 -58 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 63 cm
+q
+1 1 1 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(pranavraj@pranavraj-VirtualBox: ~) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.933333 0.933333 0.933333 rg
+BT
+1 0 0 1 0 41.2 Tm
+/F4 7.8 Tf
+9.8 TL
+(pranavraj@pranavraj-VirtualBox:~$ route -n) Tj
+T*
+(Kernel IP routing table) Tj
+T*
+(Destination     Gateway         Genmask         Flags Metric Ref    Use Iface) Tj
+T*
+(0.0.0.0         192.168.1.1     0.0.0.0         UG    100    0        0 enp0s3) Tj
+T*
+(192.168.1.0     0.0.0.0         255.255.255.0   U     100    0        0 enp0s3) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 78 m
+481.8898 78 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 78 l
+S
+n
+481.8898 0 m
+481.8898 78 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 130.0661 cm
+Q
+endstream
+endobj
+14 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 4994
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 454.8727 810.7087 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 31.1811 Tm
+(4) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 774.8661 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 12 Tf
+16 TL
+(Windows:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 722.2661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 48.6 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 28.6 481.8898 -28.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 33.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 11.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>hostname) Tj
+T*
+(DESKTOP-PRANAVRAJ) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 48.6 m
+481.8898 48.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 48.6 l
+S
+n
+481.8898 0 m
+481.8898 48.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 714.2661 cm
+Q
+q
+1 0 0 1 56.69291 508.8661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 205.4 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 185.4 481.8898 -185.4 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 190.4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 168.6 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>ipconfig /all) Tj
+T*
+T*
+(Windows IP Configuration) Tj
+T*
+T*
+(   Host Name . . . . . . . . . . . . : DESKTOP-PRANAVRAJ) Tj
+T*
+(   Primary Dns Suffix  . . . . . . . :) Tj
+T*
+(   Node Type . . . . . . . . . . . . : Hybrid) Tj
+T*
+(   IP Routing Enabled. . . . . . . . : No) Tj
+T*
+T*
+(Ethernet adapter Ethernet:) Tj
+T*
+T*
+(   Physical Address. . . . . . . . . : 00-1A-2B-3C-4D-5E) Tj
+T*
+(   DHCP Enabled. . . . . . . . . . . : Yes) Tj
+T*
+(   IPv4 Address. . . . . . . . . . . : 192.168.1.25\(Preferred\)) Tj
+T*
+(   Subnet Mask . . . . . . . . . . . : 255.255.255.0) Tj
+T*
+(   Default Gateway . . . . . . . . . : 192.168.1.1) Tj
+T*
+(   DHCP Server . . . . . . . . . . . : 192.168.1.1) Tj
+T*
+(   DNS Servers . . . . . . . . . . . : 8.8.8.8) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 205.4 m
+481.8898 205.4 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 205.4 l
+S
+n
+481.8898 0 m
+481.8898 205.4 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 500.8661 cm
+Q
+q
+1 0 0 1 56.69291 354.2661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 146.6 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 126.6 481.8898 -126.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 131.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 109.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>ping google.com) Tj
+T*
+T*
+(Pinging google.com [142.250.195.78] with 32 bytes of data:) Tj
+T*
+(Reply from 142.250.195.78: bytes=32 time=15ms TTL=117) Tj
+T*
+(Reply from 142.250.195.78: bytes=32 time=14ms TTL=117) Tj
+T*
+(Reply from 142.250.195.78: bytes=32 time=14ms TTL=117) Tj
+T*
+(Reply from 142.250.195.78: bytes=32 time=16ms TTL=117) Tj
+T*
+T*
+(Ping statistics for 142.250.195.78:) Tj
+T*
+(    Packets: Sent = 4, Received = 4, Lost = 0 \(0% loss\),) Tj
+T*
+(Approximate round trip times in milli-seconds:) Tj
+T*
+(    Minimum = 14ms, Maximum = 16ms, Average = 14ms) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 146.6 m
+481.8898 146.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 146.6 l
+S
+n
+481.8898 0 m
+481.8898 146.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 346.2661 cm
+Q
+q
+1 0 0 1 56.69291 199.6661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 146.6 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 126.6 481.8898 -126.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 131.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 109.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>tracert google.com) Tj
+T*
+T*
+(Tracing route to google.com [142.250.195.78]) Tj
+T*
+(over a maximum of 30 hops:) Tj
+T*
+T*
+(  1    <1 ms    <1 ms    <1 ms  192.168.1.1) Tj
+T*
+(  2     4 ms     4 ms     4 ms  10.20.0.1) Tj
+T*
+(  3     9 ms     8 ms     9 ms  172.16.5.9) Tj
+T*
+(  4    13 ms    12 ms    12 ms  72.14.215.85) Tj
+T*
+(  5    14 ms    14 ms    15 ms  142.250.195.78) Tj
+T*
+T*
+(Trace complete.) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 146.6 m
+481.8898 146.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 146.6 l
+S
+n
+481.8898 0 m
+481.8898 146.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 191.6661 cm
+Q
+q
+1 0 0 1 56.69291 94.06614 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 97.6 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 77.6 481.8898 -77.6 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 82.6 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 60.8 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>nslookup google.com) Tj
+T*
+(Server:  dns.google) Tj
+T*
+(Address:  8.8.8.8) Tj
+T*
+T*
+(Non-authoritative answer:) Tj
+T*
+(Name:    google.com) Tj
+T*
+(Address:  142.250.195.78) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 97.6 m
+481.8898 97.6 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 97.6 l
+S
+n
+481.8898 0 m
+481.8898 97.6 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 86.06614 cm
+Q
+endstream
+endobj
+16 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 4058
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+1 0 0 1 454.8727 810.7087 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 31.1811 Tm
+(5) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 673.6661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 117.2 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 97.2 481.8898 -97.2 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 102.2 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 80.4 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>netstat -an) Tj
+T*
+T*
+(Active Connections) Tj
+T*
+T*
+(  Proto  Local Address          Foreign Address        State) Tj
+T*
+(  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING) Tj
+T*
+(  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING) Tj
+T*
+(  TCP    192.168.1.25:50234     142.250.195.78:443     ESTABLISHED) Tj
+T*
+(  UDP    0.0.0.0:5353           *:*) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 117.2 m
+481.8898 117.2 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 117.2 l
+S
+n
+481.8898 0 m
+481.8898 117.2 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 665.6661 cm
+Q
+q
+1 0 0 1 56.69291 577.8661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 87.8 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 67.8 481.8898 -67.8 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 72.8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 51 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>arp -a) Tj
+T*
+T*
+(Interface: 192.168.1.25 --- 0x8) Tj
+T*
+(  Internet Address      Physical Address      Type) Tj
+T*
+(  192.168.1.1           c4-e9-84-2a-5b-10     dynamic) Tj
+T*
+(  192.168.1.255         ff-ff-ff-ff-ff-ff     static) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 87.8 m
+481.8898 87.8 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 87.8 l
+S
+n
+481.8898 0 m
+481.8898 87.8 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 569.8661 cm
+Q
+q
+1 0 0 1 56.69291 452.6661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 117.2 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 97.2 481.8898 -97.2 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 102.2 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 80.4 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>route print) Tj
+T*
+T*
+(IPv4 Route Table) Tj
+T*
+(===========================================================================) Tj
+T*
+(Active Routes:) Tj
+T*
+(Network Destination        Netmask          Gateway       Interface  Metric) Tj
+T*
+(          0.0.0.0          0.0.0.0      192.168.1.1    192.168.1.25     25) Tj
+T*
+(        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331) Tj
+T*
+(      192.168.1.0    255.255.255.0         On-link      192.168.1.25    281) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 117.2 m
+481.8898 117.2 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 117.2 l
+S
+n
+481.8898 0 m
+481.8898 117.2 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 444.6661 cm
+Q
+q
+1 0 0 1 56.69291 366.6661 cm
+q
+0.909804 0.909804 0.909804 rg
+n
+0 78 481.8898 -20 re
+f*
+0 0 0 rg
+n
+0 58 481.8898 -58 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 7 63 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F1 8.5 Tf
+11 TL
+(Command Prompt) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 7 5 cm
+0.8 0.8 0.8 rg
+BT
+1 0 0 1 0 41.2 Tm
+/F4 7.8 Tf
+9.8 TL
+(C:\\Users\\Pranavraj>getmac) Tj
+T*
+T*
+(Physical Address    Transport Name) Tj
+T*
+(=================== ==========================================================) Tj
+T*
+(00-1A-2B-3C-4D-5E   \\Device\\Tcpip_{8F3A21B0-5C6D-4E7F-9A1B-2C3D4E5F6A7B}) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0.333333 0.333333 0.333333 RG
+0.6 w
+n
+0 78 m
+481.8898 78 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 78 l
+S
+n
+481.8898 0 m
+481.8898 78 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 358.6661 cm
+Q
+q
+1 0 0 1 56.69291 329.6661 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 2.375 m
+56.342 2.375 l
+S
+BT
+1 0 0 1 0 4 Tm
+/F2 13 Tf
+17 TL
+(RESULT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 290.6661 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 22 Tm
+/F3 12 Tf
+17 TL
+(Thus the various network commands used in Linux and Windows were studied and executed) Tj
+T*
+(successfully.) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+18 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+xref
+0 19
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000141 00000 n 
+0000000190 00000 n 
+0000007673 00000 n 
+0000007872 00000 n 
+0000007934 00000 n 
+0000008041 00000 n 
+0000008149 00000 n 
+0000008258 00000 n 
+0000008364 00000 n 
+0000012947 00000 n 
+0000013148 00000 n 
+0000020001 00000 n 
+0000020202 00000 n 
+0000025249 00000 n 
+0000025450 00000 n 
+0000029561 00000 n 
+trailer
+<<
+/Size 19
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+29762
+%%EOF
