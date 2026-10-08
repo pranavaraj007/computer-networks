@@ -1,0 +1,4219 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 4
+/Kids [ 5 0 R 13 0 R 15 0 R 17 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 6709
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 802.2898 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 36 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 58.2378 740.0898 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 9.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 0 Tm
+/F2 12 Tf
+12 TL
+(Exp No: 9) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 96 8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 3 Tm
+/F2 12 Tf
+15 TL
+(Implementation of SUBNETTING in CISCO Packet Tracer Simulator) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n
+0 31 m
+478.8 31 l
+S
+n
+0 0 m
+478.8 0 l
+S
+n
+0 0 m
+0 31 l
+S
+n
+478.8 0 m
+478.8 31 l
+S
+n
+90 0 m
+90 31 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 70.8 730.0898 cm
+Q
+q
+1 0 0 1 70.8 704.0898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+29.85 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(AIM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 654.0898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 34 Tm
+/F3 11 Tf
+15 TL
+1.463906 Tw
+(To design multiple subnets with a suitable number of hosts, assign static IP addresses, connect the) Tj
+T*
+0 Tw
+0.182773 Tw
+(subnets through a router in Cisco Packet Tracer, and observe packet transmission with and without the) Tj
+T*
+0 Tw
+(router.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 628.0898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+173.6125 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(ALGORITHM / PROCEDURE:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 593.0898 cm
+q
+BT
+1 0 0 1 4 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 22 19 Tm
+/F3 11 Tf
+15 TL
+(Take the network address 192.168.1.0/24 and decide the number of subnets needed \(3) Tj
+T*
+(departments, so 4 subnets are created by borrowing 2 host bits\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 575.0898 cm
+q
+BT
+1 0 0 1 4 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 22 4 Tm
+/F3 11 Tf
+15 TL
+(The new mask is 255.255.255.192 \(/26\). Each subnet has 64 addresses, so 62 usable hosts.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 542.0898 cm
+q
+BT
+1 0 0 1 4 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 22 19 Tm
+/F3 11 Tf
+15 TL
+(Open Packet Tracer and place 1 router \(2911\), 3 switches \(2960\) and 6 PCs. Connect them with) Tj
+T*
+(copper straight-through cables as in Fig 1.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 509.0898 cm
+q
+BT
+1 0 0 1 4 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+BT
+1 0 0 1 22 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Assign a static IP address, subnet mask and default gateway to every PC under ) Tj
+/F4 11 Tf
+(Desktop > IP) Tj
+T*
+(Configuration) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 476.0898 cm
+q
+BT
+1 0 0 1 4 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 22 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Configure the router interfaces: ) Tj
+/F5 9 Tf
+(interface gig0/0) Tj
+/F3 11 Tf
+(, ) Tj
+/F5 9 Tf
+(ip address 192.168.1.1) Tj
+T*
+(255.255.255.192) Tj
+/F3 11 Tf
+(, ) Tj
+/F5 9 Tf
+(no shutdown) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 458.0898 cm
+q
+BT
+1 0 0 1 4 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(6.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 22 4 Tm
+/F3 11 Tf
+15 TL
+(Repeat step 5 for Gig0/1 and Gig0/2 with the gateway address of subnets B and C.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 440.0898 cm
+q
+BT
+1 0 0 1 4 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(7.) Tj
+ET
+BT
+1 0 0 1 22 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(From the PC command prompt use ) Tj
+/F5 9 Tf
+(ping) Tj
+/F3 11 Tf
+( to test connectivity inside a subnet and across subnets.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 407.0898 cm
+q
+BT
+1 0 0 1 4 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(8.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 22 19 Tm
+/F3 11 Tf
+15 TL
+(Remove the router \(delete the links to the router\) and ping across the subnets again to see the) Tj
+T*
+(difference.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 398.0898 cm
+Q
+q
+1 0 0 1 70.8 383.0898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+94.9028 0 Td
+(Fig 1: Network topology with three subnets joined by a router) Tj
+T*
+-94.9028 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 70.8 125.0898 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+190 195 100 40 re
+B*
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 222.505 218 Tm
+(Router0) Tj
+T*
+ET
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 213.755 206 Tm
+(\(Cisco 2911\)) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+25 120 100 32 re
+B*
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 58.055 133 Tm
+(Switch0) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+75 152 m
+215 195 l
+S
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 35.888 168 Tm
+(Gig0/0) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+25 40 45 30 re
+B*
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 39.7465 52.3 Tm
+(PC0) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+47 70 m
+75 120 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+80 40 45 30 re
+B*
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 94.7465 52.3 Tm
+(PC1) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+102 70 m
+75 120 l
+S
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 55.135 18 Tm
+(Subnet A) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+190 120 100 32 re
+B*
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 223.055 133 Tm
+(Switch1) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+240 152 m
+240 195 l
+S
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 264.888 168 Tm
+(Gig0/1) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+190 40 45 30 re
+B*
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 204.7465 52.3 Tm
+(PC2) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+212 70 m
+240 120 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+245 40 45 30 re
+B*
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 259.7465 52.3 Tm
+(PC3) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+267 70 m
+240 120 l
+S
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 220.41 18 Tm
+(Subnet B) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+355 120 100 32 re
+B*
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 388.055 133 Tm
+(Switch2) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+405 152 m
+265 195 l
+S
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 421.888 168 Tm
+(Gig0/2) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+355 40 45 30 re
+B*
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 369.7465 52.3 Tm
+(PC4) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+377 70 m
+405 120 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+410 40 45 30 re
+B*
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 424.7465 52.3 Tm
+(PC5) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+432 70 m
+405 120 l
+S
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 385.135 18 Tm
+(Subnet C) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+endstream
+endobj
+5 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Length 10815
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 802.2898 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 36 Tm
+(2) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 759.0898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+112.1178 0 Td
+(Fig 2: Borrowing 2 bits of the host part for subnetting) Tj
+T*
+-112.1178 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 70.8 661.0898 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+0.866667 0.866667 0.866667 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 60.25 48.7 Tm
+(1) Tj
+T*
+ET
+Q
+q
+0.866667 0.866667 0.866667 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 110.25 48.7 Tm
+(1) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+140 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 159.942 48.7 Tm
+(h) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+190 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 209.942 48.7 Tm
+(h) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+240 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 259.942 48.7 Tm
+(h) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+290 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 309.942 48.7 Tm
+(h) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+340 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 359.942 48.7 Tm
+(h) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+390 40 46 24 re
+B*
+Q
+q
+BT
+/F2 11 Tf
+13.2 TL
+ET
+BT
+/F2 11 Tf
+13.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 409.942 48.7 Tm
+(h) Tj
+T*
+ET
+Q
+q
+BT
+/F2 9 Tf
+10.8 TL
+ET
+BT
+/F2 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 91.4995 78 Tm
+(Subnet bits \(borrowed\)) Tj
+T*
+ET
+Q
+q
+BT
+/F2 9 Tf
+10.8 TL
+ET
+BT
+/F2 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 262.501 78 Tm
+(Host bits \(6\)) Tj
+T*
+ET
+Q
+q
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 97.287 20 Tm
+(192.168.1.0 /24  ->  /26   \(2 bits borrowed = 4 subnets, 2^6 - 2 = 62 hosts each\)) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 70.8 635.0898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+78.8375 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(Subnet design:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.4378 520.0898 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Subnet) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Network ID) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 157.2 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Mask) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 254.4 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Usable range) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 326.4 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Broadcast) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 409.2 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Gateway) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(A \(Sales\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.0/26) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 157.2 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 254.4 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(.1 - .62) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 326.4 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.63) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 409.2 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(B \(HR\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.64/26) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 157.2 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 254.4 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(.65 - .126) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 326.4 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.127) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 409.2 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.65) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(C \(IT\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.128/26) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 157.2 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 254.4 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(.129 - .190) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 326.4 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.191) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 409.2 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.129) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Unused) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 63.6 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.192/26) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 157.2 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 254.4 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(.193 - .254) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 326.4 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.255) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 409.2 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(-) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.8 w
+n
+0 110 m
+482.4 110 l
+S
+n
+0 0 m
+482.4 0 l
+S
+n
+0 0 m
+0 110 l
+S
+n
+482.4 0 m
+482.4 110 l
+S
+n
+0 88 m
+482.4 88 l
+S
+n
+0 66 m
+482.4 66 l
+S
+n
+0 44 m
+482.4 44 l
+S
+n
+0 22 m
+482.4 22 l
+S
+n
+57.6 0 m
+57.6 110 l
+S
+n
+151.2 0 m
+151.2 110 l
+S
+n
+248.4 0 m
+248.4 110 l
+S
+n
+320.4 0 m
+320.4 110 l
+S
+n
+403.2 0 m
+403.2 110 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 70.8 512.0898 cm
+Q
+q
+1 0 0 1 70.8 486.0898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+90.275 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(IP address table:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 60.0378 261.0898 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 203 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Device) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 203 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Interface) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 203 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(IP Address) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 203 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Subnet Mask) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 203 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Default Gateway) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 181 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 181 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Gig0/0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 181 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 181 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 181 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(-) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 159 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 159 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Gig0/1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 159 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.65) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 159 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 159 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(-) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 137 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 137 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Gig0/2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 137 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.129) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 137 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 137 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(-) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 115 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 115 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Fa0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 115 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 115 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 115 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Fa0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 93 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Fa0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.66) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 71 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.65) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Fa0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.67) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 49 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.65) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Fa0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.130) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 27 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.129) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC5) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Fa0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 135.6 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.131) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 243.6 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(255.255.255.192) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 366 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(192.168.1.129) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.8 w
+n
+0 220 m
+475.2 220 l
+S
+n
+0 0 m
+475.2 0 l
+S
+n
+0 0 m
+0 220 l
+S
+n
+475.2 0 m
+475.2 220 l
+S
+n
+0 198 m
+475.2 198 l
+S
+n
+0 176 m
+475.2 176 l
+S
+n
+0 154 m
+475.2 154 l
+S
+n
+0 132 m
+475.2 132 l
+S
+n
+0 110 m
+475.2 110 l
+S
+n
+0 88 m
+475.2 88 l
+S
+n
+0 66 m
+475.2 66 l
+S
+n
+0 44 m
+475.2 44 l
+S
+n
+0 22 m
+475.2 22 l
+S
+n
+64.8 0 m
+64.8 220 l
+S
+n
+129.6 0 m
+129.6 220 l
+S
+n
+237.6 0 m
+237.6 220 l
+S
+n
+360 0 m
+360 220 l
+S
+Q
+Q
+Q
+endstream
+endobj
+13 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 10332
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 802.2898 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 36 Tm
+(3) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 755.0898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+117 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(Router configuration:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 58.2378 582.0898 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 8 6 cm
+0 0 0 rg
+BT
+1 0 0 1 0 147.7 Tm
+/F5 8.3 Tf
+10.4 TL
+(Router>enable) Tj
+T*
+(Router#configure terminal) Tj
+T*
+(Router\(config\)#interface gigabitEthernet 0/0) Tj
+T*
+(Router\(config-if\)#ip address 192.168.1.1 255.255.255.192) Tj
+T*
+(Router\(config-if\)#no shutdown) Tj
+T*
+(Router\(config-if\)#exit) Tj
+T*
+(Router\(config\)#interface gigabitEthernet 0/1) Tj
+T*
+(Router\(config-if\)#ip address 192.168.1.65 255.255.255.192) Tj
+T*
+(Router\(config-if\)#no shutdown) Tj
+T*
+(Router\(config-if\)#exit) Tj
+T*
+(Router\(config\)#interface gigabitEthernet 0/2) Tj
+T*
+(Router\(config-if\)#ip address 192.168.1.129 255.255.255.192) Tj
+T*
+(Router\(config-if\)#no shutdown) Tj
+T*
+(Router\(config-if\)#end) Tj
+T*
+(Router#write memory) Tj
+T*
+ET
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.8 w
+n
+0 168 m
+478.8 168 l
+S
+n
+0 0 m
+478.8 0 l
+S
+n
+0 0 m
+0 168 l
+S
+n
+478.8 0 m
+478.8 168 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 70.8 556.0898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+56.25 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(OUTPUT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 473.0898 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 74 l
+478.8 76.2112 477.0112 78 474.8 78 c
+4 78 l
+1.7888 78 0 76.2112 0 74 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 63 m
+474.8 63 l
+477.0112 63 478.8 64.7888 478.8 67 c
+478.8 74 l
+478.8 76.2112 477.0112 78 474.8 78 c
+4 78 l
+1.7888 78 0 76.2112 0 74 c
+0 67 l
+0 64.7888 1.7888 63 4 63 c
+h
+f*
+n
+0 63 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 70.5 m
+12 72.15685 10.65685 73.5 9 73.5 c
+7.343146 73.5 6 72.15685 6 70.5 c
+6 68.84315 7.343146 67.5 9 67.5 c
+10.65685 67.5 12 68.84315 12 70.5 c
+f*
+1 0.741176 0.180392 rg
+n
+23 70.5 m
+23 72.15685 21.65685 73.5 20 73.5 c
+18.34315 73.5 17 72.15685 17 70.5 c
+17 68.84315 18.34315 67.5 20 67.5 c
+21.65685 67.5 23 68.84315 23 70.5 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 70.5 m
+34 72.15685 32.65685 73.5 31 73.5 c
+29.34315 73.5 28 72.15685 28 70.5 c
+28 68.84315 29.34315 67.5 31 67.5 c
+32.65685 67.5 34 68.84315 34 70.5 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 179.3775 67.5 Tm
+(Router0 CLI - show ip interface brief) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(Router#show ip interface brief) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+(Interface              IP-Address      OK? Method Status                Protocol) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+(GigabitEthernet0/0     192.168.1.1     YES manual up                    up) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+(GigabitEthernet0/1     192.168.1.65    YES manual up                    up) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(GigabitEthernet0/2     192.168.1.129   YES manual up                    up) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 465.0898 cm
+Q
+q
+1 0 0 1 70.8 325.8898 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 124.2 m
+474.8 124.2 l
+477.0112 124.2 478.8 125.9888 478.8 128.2 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 128.2 l
+0 125.9888 1.7888 124.2 4 124.2 c
+h
+f*
+n
+0 124.2 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 131.7 m
+12 133.3569 10.65685 134.7 9 134.7 c
+7.343146 134.7 6 133.3569 6 131.7 c
+6 130.0431 7.343146 128.7 9 128.7 c
+10.65685 128.7 12 130.0431 12 131.7 c
+f*
+1 0.741176 0.180392 rg
+n
+23 131.7 m
+23 133.3569 21.65685 134.7 20 134.7 c
+18.34315 134.7 17 133.3569 17 131.7 c
+17 130.0431 18.34315 128.7 20 128.7 c
+21.65685 128.7 23 130.0431 23 131.7 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 131.7 m
+34 133.3569 32.65685 134.7 31 134.7 c
+29.34315 134.7 28 133.3569 28 131.7 c
+28 130.0431 29.34315 128.7 31 128.7 c
+32.65685 128.7 34 130.0431 34 131.7 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 175.8375 128.7 Tm
+(PC0 Command Prompt - same subnet) Tj
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 113.2 Tm
+(PC>) Tj
+T*
+ET
+0.94902 0.94902 0.94902 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 21.68 113.2 Tm
+(ping 192.168.1.3) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 103 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 92.8 Tm
+(Pinging 192.168.1.3 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 82.6 Tm
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 72.4 Tm
+(Reply from 192.168.1.3: bytes=32 time=1ms TTL=128) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 62.2 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+(Ping statistics for 192.168.1.3:) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 \(0% loss\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 317.8898 cm
+Q
+q
+1 0 0 1 70.8 302.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 11 Tf
+15 TL
+(\(a\) When the subnets are connected via a router) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 296.8898 cm
+Q
+q
+1 0 0 1 70.8 157.6898 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 124.2 m
+474.8 124.2 l
+477.0112 124.2 478.8 125.9888 478.8 128.2 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 128.2 l
+0 125.9888 1.7888 124.2 4 124.2 c
+h
+f*
+n
+0 124.2 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 131.7 m
+12 133.3569 10.65685 134.7 9 134.7 c
+7.343146 134.7 6 133.3569 6 131.7 c
+6 130.0431 7.343146 128.7 9 128.7 c
+10.65685 128.7 12 130.0431 12 131.7 c
+f*
+1 0.741176 0.180392 rg
+n
+23 131.7 m
+23 133.3569 21.65685 134.7 20 134.7 c
+18.34315 134.7 17 133.3569 17 131.7 c
+17 130.0431 18.34315 128.7 20 128.7 c
+21.65685 128.7 23 130.0431 23 131.7 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 131.7 m
+34 133.3569 32.65685 134.7 31 134.7 c
+29.34315 134.7 28 133.3569 28 131.7 c
+28 130.0431 29.34315 128.7 31 128.7 c
+32.65685 128.7 34 130.0431 34 131.7 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 132.0637 128.7 Tm
+(PC0 Command Prompt - ping PC2 \(Subnet B\) through the router) Tj
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 113.2 Tm
+(PC>) Tj
+T*
+ET
+0.94902 0.94902 0.94902 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 21.68 113.2 Tm
+(ping 192.168.1.66) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 103 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 92.8 Tm
+(Pinging 192.168.1.66 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 82.6 Tm
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 72.4 Tm
+(Request timed out.) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 62.2 Tm
+(Reply from 192.168.1.66: bytes=32 time=3ms TTL=127) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(Reply from 192.168.1.66: bytes=32 time=2ms TTL=127) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+(Reply from 192.168.1.66: bytes=32 time=2ms TTL=127) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+(Ping statistics for 192.168.1.66:) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(    Packets: Sent = 4, Received = 3, Lost = 1 \(25% loss\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 149.6898 cm
+Q
+q
+1 0 0 1 70.8 71.68976 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 74 l
+478.8 76.2112 477.0112 78 474.8 78 c
+4 78 l
+1.7888 78 0 76.2112 0 74 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 63 m
+474.8 63 l
+477.0112 63 478.8 64.7888 478.8 67 c
+478.8 74 l
+478.8 76.2112 477.0112 78 474.8 78 c
+4 78 l
+1.7888 78 0 76.2112 0 74 c
+0 67 l
+0 64.7888 1.7888 63 4 63 c
+h
+f*
+n
+0 63 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 70.5 m
+12 72.15685 10.65685 73.5 9 73.5 c
+7.343146 73.5 6 72.15685 6 70.5 c
+6 68.84315 7.343146 67.5 9 67.5 c
+10.65685 67.5 12 68.84315 12 70.5 c
+f*
+1 0.741176 0.180392 rg
+n
+23 70.5 m
+23 72.15685 21.65685 73.5 20 73.5 c
+18.34315 73.5 17 72.15685 17 70.5 c
+17 68.84315 18.34315 67.5 20 67.5 c
+21.65685 67.5 23 68.84315 23 70.5 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 70.5 m
+34 72.15685 32.65685 73.5 31 73.5 c
+29.34315 73.5 28 72.15685 28 70.5 c
+28 68.84315 29.34315 67.5 31 67.5 c
+32.65685 67.5 34 68.84315 34 70.5 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 131.8575 67.5 Tm
+(PC0 Command Prompt - ping PC4 \(Subnet C\) through the router) Tj
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(PC>) Tj
+T*
+ET
+0.94902 0.94902 0.94902 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 21.68 52 Tm
+(ping 192.168.1.130) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+(Pinging 192.168.1.130 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(Reply from 192.168.1.130: bytes=32 time=2ms TTL=127) Tj
+T*
+ET
+Q
+endstream
+endobj
+15 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 10041
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 802.2898 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 295.1378 36 Tm
+(4) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 682.8898 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 84.2 l
+478.8 86.4112 477.0112 88.2 474.8 88.2 c
+4 88.2 l
+1.7888 88.2 0 86.4112 0 84.2 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 73.2 m
+474.8 73.2 l
+477.0112 73.2 478.8 74.9888 478.8 77.2 c
+478.8 84.2 l
+478.8 86.4112 477.0112 88.2 474.8 88.2 c
+4 88.2 l
+1.7888 88.2 0 86.4112 0 84.2 c
+0 77.2 l
+0 74.9888 1.7888 73.2 4 73.2 c
+h
+f*
+n
+0 73.2 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 80.7 m
+12 82.35685 10.65685 83.7 9 83.7 c
+7.343146 83.7 6 82.35685 6 80.7 c
+6 79.04315 7.343146 77.7 9 77.7 c
+10.65685 77.7 12 79.04315 12 80.7 c
+f*
+1 0.741176 0.180392 rg
+n
+23 80.7 m
+23 82.35685 21.65685 83.7 20 83.7 c
+18.34315 83.7 17 82.35685 17 80.7 c
+17 79.04315 18.34315 77.7 20 77.7 c
+21.65685 77.7 23 79.04315 23 80.7 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 80.7 m
+34 82.35685 32.65685 83.7 31 83.7 c
+29.34315 83.7 28 82.35685 28 80.7 c
+28 79.04315 29.34315 77.7 31 77.7 c
+32.65685 77.7 34 79.04315 34 80.7 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 118.1025 77.7 Tm
+(PC0 Command Prompt - ping PC4 \(Subnet C\) through the router \(contd.\)) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 62.2 Tm
+(Reply from 192.168.1.130: bytes=32 time=1ms TTL=127) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(Reply from 192.168.1.130: bytes=32 time=1ms TTL=127) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+(Reply from 192.168.1.130: bytes=32 time=2ms TTL=127) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+(Ping statistics for 192.168.1.130:) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 \(0% loss\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 674.8898 cm
+Q
+q
+1 0 0 1 70.8 659.8898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 4 Tm
+/F2 11 Tf
+15 TL
+(\(b\) When the subnets are not connected \(router removed\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 653.8898 cm
+Q
+q
+1 0 0 1 70.8 514.6898 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 124.2 m
+474.8 124.2 l
+477.0112 124.2 478.8 125.9888 478.8 128.2 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 128.2 l
+0 125.9888 1.7888 124.2 4 124.2 c
+h
+f*
+n
+0 124.2 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 131.7 m
+12 133.3569 10.65685 134.7 9 134.7 c
+7.343146 134.7 6 133.3569 6 131.7 c
+6 130.0431 7.343146 128.7 9 128.7 c
+10.65685 128.7 12 130.0431 12 131.7 c
+f*
+1 0.741176 0.180392 rg
+n
+23 131.7 m
+23 133.3569 21.65685 134.7 20 134.7 c
+18.34315 134.7 17 133.3569 17 131.7 c
+17 130.0431 18.34315 128.7 20 128.7 c
+21.65685 128.7 23 130.0431 23 131.7 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 131.7 m
+34 133.3569 32.65685 134.7 31 134.7 c
+29.34315 134.7 28 133.3569 28 131.7 c
+28 130.0431 29.34315 128.7 31 128.7 c
+32.65685 128.7 34 130.0431 34 131.7 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 132.9 128.7 Tm
+(PC0 Command Prompt - ping PC2 \(Subnet B\) without the router) Tj
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 113.2 Tm
+(PC>) Tj
+T*
+ET
+0.94902 0.94902 0.94902 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 21.68 113.2 Tm
+(ping 192.168.1.66) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 103 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 92.8 Tm
+(Pinging 192.168.1.66 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 82.6 Tm
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 72.4 Tm
+(Request timed out.) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 62.2 Tm
+(Request timed out.) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(Request timed out.) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+(Request timed out.) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+(Ping statistics for 192.168.1.66:) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(    Packets: Sent = 4, Received = 0, Lost = 4 \(100% loss\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 506.6898 cm
+Q
+q
+1 0 0 1 70.8 367.4898 cm
+0.047059 0.047059 0.047059 rg
+n
+4 0 m
+474.8 0 l
+477.0112 0 478.8 1.7888 478.8 4 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 4 l
+0 1.7888 1.7888 0 4 0 c
+h
+f*
+0.176471 0.176471 0.176471 rg
+n
+4 124.2 m
+474.8 124.2 l
+477.0112 124.2 478.8 125.9888 478.8 128.2 c
+478.8 135.2 l
+478.8 137.4112 477.0112 139.2 474.8 139.2 c
+4 139.2 l
+1.7888 139.2 0 137.4112 0 135.2 c
+0 128.2 l
+0 125.9888 1.7888 124.2 4 124.2 c
+h
+f*
+n
+0 124.2 478.8 4 re
+f*
+1 0.372549 0.337255 rg
+n
+12 131.7 m
+12 133.3569 10.65685 134.7 9 134.7 c
+7.343146 134.7 6 133.3569 6 131.7 c
+6 130.0431 7.343146 128.7 9 128.7 c
+10.65685 128.7 12 130.0431 12 131.7 c
+f*
+1 0.741176 0.180392 rg
+n
+23 131.7 m
+23 133.3569 21.65685 134.7 20 134.7 c
+18.34315 134.7 17 133.3569 17 131.7 c
+17 130.0431 18.34315 128.7 20 128.7 c
+21.65685 128.7 23 130.0431 23 131.7 c
+f*
+0.152941 0.788235 0.247059 rg
+n
+34 131.7 m
+34 133.3569 32.65685 134.7 31 134.7 c
+29.34315 134.7 28 133.3569 28 131.7 c
+28 130.0431 29.34315 128.7 31 128.7 c
+32.65685 128.7 34 130.0431 34 131.7 c
+f*
+0.94902 0.94902 0.94902 rg
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 126.8588 128.7 Tm
+(PC0 Command Prompt - ping PC1 \(same subnet\) without the router) Tj
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 113.2 Tm
+(PC>) Tj
+T*
+ET
+0.94902 0.94902 0.94902 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 21.68 113.2 Tm
+(ping 192.168.1.3) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 103 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 92.8 Tm
+(Pinging 192.168.1.3 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 82.6 Tm
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 72.4 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 62.2 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 52 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.305882 0.878431 0.419608 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 41.8 Tm
+(Reply from 192.168.1.3: bytes=32 time<1ms TTL=128) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 31.6 Tm
+T*
+ET
+0.94902 0.827451 0.294118 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 21.4 Tm
+(Ping statistics for 192.168.1.3:) Tj
+T*
+ET
+1 0.372549 0.372549 rg
+BT
+/F5 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 8 11.2 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 \(0% loss\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 70.8 341.4898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+96.5375 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(OBSERVATION:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 60.0378 202.4898 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 117 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Case) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 106.8 117 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Source -> Destination) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 272.4 117 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+(Result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 95 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router connected) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 106.8 95 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC0 -> PC1 \(same subnet\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 272.4 95 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Success, TTL = 128) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 67 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router connected) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 106.8 67 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC0 -> PC2 / PC4 \(other subnet\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 272.4 61 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14 Tm
+/F3 10 Tf
+12 TL
+(Success, TTL = 127 \(one router hop\). First) Tj
+T*
+(packet lost while ARP is resolved.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router removed) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 106.8 39 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC0 -> PC1 \(same subnet\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 272.4 39 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Success, switch forwards the frames) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 11 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(Router removed) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 106.8 11 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F3 10 Tf
+12 TL
+(PC0 -> PC2 / PC4 \(other subnet\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 272.4 5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 14 Tm
+/F3 10 Tf
+12 TL
+(Fails, 100% loss. No device can route between) Tj
+T*
+(subnets.) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.8 w
+n
+0 134 m
+475.2 134 l
+S
+n
+0 0 m
+475.2 0 l
+S
+n
+0 0 m
+0 134 l
+S
+n
+475.2 0 m
+475.2 134 l
+S
+n
+0 112 m
+475.2 112 l
+S
+n
+0 90 m
+475.2 90 l
+S
+n
+0 56 m
+475.2 56 l
+S
+n
+0 34 m
+475.2 34 l
+S
+n
+100.8 0 m
+100.8 134 l
+S
+n
+266.4 0 m
+266.4 134 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 70.8 176.4898 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.9375 m
+54.175 1.9375 l
+S
+BT
+1 0 0 1 0 3.5 Tm
+/F2 12.5 Tf
+16 TL
+(RESULT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 70.8 126.4898 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 34 Tm
+/F3 11 Tf
+15 TL
+1.805045 Tw
+(Thus subnetting of the 192.168.1.0/24 network into /26 subnets was implemented in Cisco Packet) Tj
+T*
+0 Tw
+1.953122 Tw
+(Tracer. Hosts in different subnets could communicate only when a router was connected between) Tj
+T*
+0 Tw
+(them, while hosts inside the same subnet could communicate even without the router.) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+17 0 obj
+<<
+/Contents 16 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000134 00000 n 
+0000000183 00000 n 
+0000006944 00000 n 
+0000007143 00000 n 
+0000007216 00000 n 
+0000007323 00000 n 
+0000007431 00000 n 
+0000007540 00000 n 
+0000007651 00000 n 
+0000007757 00000 n 
+0000018626 00000 n 
+0000018827 00000 n 
+0000029213 00000 n 
+0000029414 00000 n 
+0000039509 00000 n 
+trailer
+<<
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+39710
+%%EOF

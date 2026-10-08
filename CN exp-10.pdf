@@ -1,0 +1,8920 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 6
+/Kids [ 5 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 8151
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(1) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 755.1969 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 0.5 Tm
+/F2 11.5 Tf
+12 TL
+(Exp No: 10) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Internetworking with routers in CISCO PACKET TRACER simulator) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n
+0 30 m
+481.8898 30 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 30 l
+S
+n
+481.8898 0 m
+481.8898 30 l
+S
+n
+96.37795 0 m
+96.37795 30 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 747.1969 cm
+Q
+q
+1 0 0 1 56.69291 721.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+31.044 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(AIM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 670.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 34 Tm
+/F3 11 Tf
+15 TL
+-0.060402 Tw
+(To design and configure internetworks in Cisco Packet Tracer using \(a\) a router with static IP addresses, \(b\) a) Tj
+T*
+0 Tw
+(wireless router with DHCP server and an internet cloud, and \(c\) a switch, a router and Ethernet cables in the) Tj
+T*
+(lab, and to trace how the packets are routed.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 644.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+180.557 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(ALGORITHM / PROCEDURE:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 622.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(a\) Simple internetwork using a router) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 603.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Place a Router \(2911\), two Switches and six PCs \(3 in each network\) on the workspace.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 570.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Connect each PC to its switch and each switch to the router with ) Tj
+/F2 11 Tf
+(copper straight-through cables) Tj
+/F3 11 Tf
+(.) Tj
+T*
+(Router interface ) Tj
+/F4 9.5 Tf
+(Gig0/0) Tj
+/F3 11 Tf
+( goes to Switch0 and ) Tj
+/F4 9.5 Tf
+(Gig0/1) Tj
+/F3 11 Tf
+( goes to Switch1.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 537.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Assign the static IP addresses to the PCs \(network 1: ) Tj
+/F4 9.5 Tf
+(192.168.1.0/24) Tj
+/F3 11 Tf
+(, network 2: ) Tj
+/F4 9.5 Tf
+(192.168.2.0/24) Tj
+/F3 11 Tf
+(\)) Tj
+T*
+(and set the ) Tj
+/F2 11 Tf
+(default gateway) Tj
+/F3 11 Tf
+( of each PC to the router interface address \() Tj
+/F4 9.5 Tf
+(192.168.1.1) Tj
+/F3 11 Tf
+( / ) Tj
+/F4 9.5 Tf
+(192.168.2.1) Tj
+/F3 11 Tf
+(\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 504.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Open the router CLI and configure both interfaces with ) Tj
+/F4 9.5 Tf
+(ip address) Tj
+/F3 11 Tf
+( and ) Tj
+/F4 9.5 Tf
+(no shutdown) Tj
+/F3 11 Tf
+( \(commands) Tj
+T*
+(given below\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 486.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Ping from PC0 to PC3 and check the reply. Use ) Tj
+/F4 9.5 Tf
+(tracert) Tj
+/F3 11 Tf
+( to see the path.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 453.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(6.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 19 Tm
+/F3 11 Tf
+15 TL
+(Go to Simulation mode, add a simple PDU from PC0 to PC3 and trace the packet through Switch0,) Tj
+T*
+(Router0 and Switch1.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 431.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(b\) Wireless router, DHCP server and internet cloud) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 397.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 19 Tm
+/F3 11 Tf
+15 TL
+(Place a Wireless Router, a Cable Modem, a Cloud, a Server, one PC \(wired\), a Laptop and a) Tj
+T*
+(Smartphone.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 364.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Connect PC0 to a LAN port of the wireless router, the Internet port of the router to the Cable Modem,) Tj
+T*
+(the modem to the Cloud and the Cloud to the Server \() Tj
+/F4 9.5 Tf
+(Coaxial / Ethernet) Tj
+/F3 11 Tf
+(\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 331.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Open the wireless router ) Tj
+/F2 11 Tf
+(GUI) Tj
+/F3 11 Tf
+(: set ) Tj
+/F2 11 Tf
+(SSID = LabNet) Tj
+/F3 11 Tf
+(, ) Tj
+/F2 11 Tf
+(WPA2-PSK password) Tj
+/F3 11 Tf
+( and ) Tj
+/F2 11 Tf
+(Internet setup =) Tj
+T*
+(DHCP) Tj
+/F3 11 Tf
+(. Set the ) Tj
+/F2 11 Tf
+(DHCP server = Enabled) Tj
+/F3 11 Tf
+( \(start IP ) Tj
+/F4 9.5 Tf
+(192.168.0.100) Tj
+/F3 11 Tf
+(, 50 users\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 298.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Give the server a static IP ) Tj
+/F4 9.5 Tf
+(203.0.113.10) Tj
+/F3 11 Tf
+(. On the Laptop and the Smartphone configure the ) Tj
+/F2 11 Tf
+(Wireless0) Tj
+/F3 11 Tf
+T*
+(as SSID ) Tj
+/F4 9.5 Tf
+(LabNet) Tj
+/F3 11 Tf
+( with the same password.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 280.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(In IP Configuration select ) Tj
+/F2 11 Tf
+(DHCP) Tj
+/F3 11 Tf
+( on the PC, Laptop and Smartphone and check the address received.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 262.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(6.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Ping the server and also open its web page from the browser of the Laptop.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 240.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(c\) Inter-network in the lab using switch, router and Ethernet cables) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 221.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Take one router, two switches, six PCs and eight straight-through UTP cables \(made in Experiment 2\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 188.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 19 Tm
+/F3 11 Tf
+15 TL
+(Connect PCs to the switches, and the switches to the two Gigabit ports of the router. Check that all the) Tj
+T*
+(link LEDs glow.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 155.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Assign the addresses ) Tj
+/F4 9.5 Tf
+(172.16.1.0/24) Tj
+/F3 11 Tf
+( and ) Tj
+/F4 9.5 Tf
+(172.16.2.0/24) Tj
+/F3 11 Tf
+( with the router as the default gateway and) Tj
+T*
+(configure the router interfaces.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 137.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Ping within the same network and between the two networks. Note down the results.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 52.19685 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 82 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Connection) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Cable used) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC to Switch) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Straight-through) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Switch to Router) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Straight-through) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC to Router \(direct\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Crossover) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 82 m
+481.8898 82 l
+S
+n
+0 0 m
+0 82 l
+S
+n
+481.8898 0 m
+481.8898 82 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 61.5 m
+481.8898 61.5 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+240.9449 0 m
+240.9449 82 l
+S
+Q
+Q
+Q
+endstream
+endobj
+5 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Length 13317
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(2) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 744.1969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 41 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Connection) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Cable used) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Router to Router \(LAN side\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Crossover) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+0 41 l
+S
+n
+0 0 m
+0 20.5 l
+S
+n
+481.8898 20.5 m
+481.8898 41 l
+S
+n
+481.8898 0 m
+481.8898 20.5 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+240.9449 20.5 m
+240.9449 41 l
+S
+n
+240.9449 0 m
+240.9449 20.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 722.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Router configuration \(Part a\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 575.5969 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 142.6 re
+B*
+1 1 1 rg
+n
+0 127.6 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 127.6 m
+481.8898 127.6 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 132.1 Tm
+(Router CLI) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(Router>enable) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(Router#configure terminal) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(Router\(config\)#hostname R1) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(R1\(config\)#interface gigabitEthernet 0/0) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(R1\(config-if\)#ip address 192.168.1.1 255.255.255.0) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(R1\(config-if\)#no shutdown) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(R1\(config-if\)#exit) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(R1\(config\)#interface gigabitEthernet 0/1) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(R1\(config-if\)#ip address 192.168.2.1 255.255.255.0) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(R1\(config-if\)#no shutdown) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(R1\(config-if\)#end) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(R1#copy running-config startup-config) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 566.5969 cm
+Q
+q
+1 0 0 1 56.69291 540.5969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+69.316 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(DIAGRAM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 329.5969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+235 172 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+235 172 m
+370 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+30 40 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+100 40 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+170 40 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+300 40 m
+370 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+370 40 m
+370 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+440 40 m
+370 112 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+250 172 m
+250 180.2843 243.2843 187 235 187 c
+226.7157 187 220 180.2843 220 172 c
+220 163.7157 226.7157 157 235 157 c
+243.2843 157 250 163.7157 250 172 c
+B*
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 231.39 169 Tm
+(R) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 221.8787 142 Tm
+(Router0) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 208.818 133 Tm
+(Gig0/0: 192.168.1.1) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 208.818 124.5 Tm
+(Gig0/1: 192.168.2.1) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+77 105 46 14 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+80 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+85 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+90 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+95 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+100 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+105 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+110 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+115 107 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 94.76425 111 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 87.29125 86 Tm
+(Switch0) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+347 105 46 14 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+350 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+355 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+360 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+365 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+370 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+375 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+380 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+385 107 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 364.7643 111 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 357.2912 86 Tm
+(Switch1) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+17 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+19.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+21 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 26.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 23.12625 18 Tm
+(PC0) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 14.5625 9 Tm
+(192.168.1.2) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+87 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+89.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+91 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 96.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 93.12625 18 Tm
+(PC1) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 84.5625 9 Tm
+(192.168.1.3) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+157 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+159.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+161 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 166.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 163.1262 18 Tm
+(PC2) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 154.5625 9 Tm
+(192.168.1.4) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+287 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+289.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+291 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 296.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 293.1263 18 Tm
+(PC3) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 284.5625 9 Tm
+(192.168.2.2) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+357 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+359.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+361 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 366.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 363.1263 18 Tm
+(PC4) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 354.5625 9 Tm
+(192.168.2.3) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+427 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+429.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+431 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 436.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 433.1263 18 Tm
+(PC5) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 424.5625 9 Tm
+(192.168.2.4) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 314.5969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+104.9999 0 Td
+(Fig 1: Internetwork of two LANs connected by a router \(Part a\)) Tj
+T*
+-104.9999 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 116.5969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+130 130 m
+235 130 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+235 130 m
+330 130 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+330 130 m
+430 130 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 45 m
+130 130 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+130 45 m
+130 130 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+220 45 m
+130 130 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+327 130 m
+327 136.0751 322.0751 141 316 141 c
+309.9249 141 305 136.0751 305 130 c
+305 123.9249 309.9249 119 316 119 c
+322.0751 119 327 123.9249 327 130 c
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+343 136 m
+343 143.1797 337.1797 149 330 149 c
+322.8203 149 317 143.1797 317 136 c
+317 128.8203 322.8203 123 330 123 c
+337.1797 123 343 128.8203 343 136 c
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+355 130 m
+355 136.0751 350.0751 141 344 141 c
+337.9249 141 333 136.0751 333 130 c
+333 123.9249 337.9249 119 344 119 c
+350.0751 119 355 123.9249 355 130 c
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+342 127 m
+342 133.6274 336.6274 139 330 139 c
+323.3726 139 318 133.6274 318 127 c
+318 120.3726 323.3726 115 330 115 c
+336.6274 115 342 120.3726 342 127 c
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+308 118 44 14 re
+B*
+Q
+q
+BT
+/F3 7.5 Tf
+9 TL
+ET
+BT
+/F3 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 318.3375 129 Tm
+(Internet) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 318.33 100 Tm
+(Cloud0) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+420 115 20 30 re
+B*
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+423 138 m
+437 138 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+423 131 m
+437 131 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+423 124 m
+437 124 l
+S
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 417.505 102 Tm
+(Server0) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 412.9375 93 Tm
+(203.0.113.10) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+212 123 46 14 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+215 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+220 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+225 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+230 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+235 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+240 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+245 125 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+250 125 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 227.9605 129 Tm
+(HUB) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 212.3988 104 Tm
+(Cable Modem) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+110 123 40 14 re
+B*
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+116 137 m
+113 147 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+144 137 m
+147 147 l
+S
+Q
+q
+BT
+/F6 7 Tf
+8.4 TL
+ET
+BT
+/F6 7 Tf
+8.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 124.169 128 Tm
+(WR) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 104.0687 104 Tm
+(Wireless Router) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 114.5625 95 Tm
+(192.168.0.1) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+27 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+29.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+31 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 36.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 33.12625 23 Tm
+(PC0) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+117 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+119.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+121 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 126.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 116.455 23 Tm
+(Laptop0) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+207 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+209.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+211 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 216.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 198.3325 23 Tm
+(Smartphone0) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 101.5969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+42.90488 0 Td
+(Fig 2: Wireless router with DHCP and internet cloud \(Part b\) - dotted lines are wireless links) Tj
+T*
+-42.90488 0 Td
+ET
+Q
+Q
+endstream
+endobj
+14 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 20361
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(3) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 580.1969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+235 172 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+235 172 m
+370 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+30 40 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+100 40 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+170 40 m
+100 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+300 40 m
+370 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+370 40 m
+370 112 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+440 40 m
+370 112 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+250 172 m
+250 180.2843 243.2843 187 235 187 c
+226.7157 187 220 180.2843 220 172 c
+220 163.7157 226.7157 157 235 157 c
+243.2843 157 250 163.7157 250 172 c
+B*
+Q
+q
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 231.39 169 Tm
+(R) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 223.7537 142 Tm
+(Router) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 210.443 133 Tm
+(Gig0/0: 172.16.1.1) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 210.443 124.5 Tm
+(Gig0/1: 172.16.2.1) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+77 105 46 14 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+80 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+85 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+90 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+95 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+100 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+105 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+110 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+115 107 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 94.76425 111 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 85.21 86 Tm
+(Switch-A) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+347 105 46 14 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+350 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+355 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+360 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+365 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+370 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+375 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+380 107 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+385 107 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 364.7643 111 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 355.4162 86 Tm
+(Switch-B) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+17 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+19.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+21 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 26.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 23.12625 18 Tm
+(PC1) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 16.1875 9 Tm
+(172.16.1.2) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+87 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+89.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+91 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 96.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 93.12625 18 Tm
+(PC2) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 86.1875 9 Tm
+(172.16.1.3) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+157 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+159.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+161 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 166.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 163.1262 18 Tm
+(PC3) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 156.1875 9 Tm
+(172.16.1.4) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+287 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+289.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+291 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 296.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 293.1263 18 Tm
+(PC4) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 286.1875 9 Tm
+(172.16.2.2) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+357 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+359.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+361 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 366.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 363.1263 18 Tm
+(PC5) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 356.1875 9 Tm
+(172.16.2.3) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+427 38 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+429.5 40.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+431 31 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 436.331 44 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 433.1263 18 Tm
+(PC6) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 426.1875 9 Tm
+(172.16.2.4) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 565.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+78.73988 0 Td
+(Fig 3: Lab inter-network using switches, router and Ethernet cables \(Part c\)) Tj
+T*
+-78.73988 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 539.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+58.5 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(OUTPUT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 517.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Part \(a\) - Router with two networks) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 292.1969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+1 1 1 rg
+0.333333 0.333333 0.333333 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+0 0 470 221 re
+B*
+Q
+q
+0.121569 0.372549 0.658824 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+0 205 470 16 re
+B*
+Q
+q
+BT
+/F6 8 Tf
+9.6 TL
+ET
+BT
+/F6 8 Tf
+9.6 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 8 210 Tm
+(Cisco Packet Tracer - internetwork_router.pkt) Tj
+T*
+ET
+Q
+q
+0.956863 0.964706 0.980392 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+1 1 468 204 re
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+235 172 m
+100 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+221 164.8 m
+221 166.015 220.015 167 218.8 167 c
+217.585 167 216.6 166.015 216.6 164.8 c
+216.6 163.585 217.585 162.6 218.8 162.6 c
+220.015 162.6 221 163.585 221 164.8 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+118.4 119.2 m
+118.4 120.415 117.415 121.4 116.2 121.4 c
+114.985 121.4 114 120.415 114 119.2 c
+114 117.985 114.985 117 116.2 117 c
+117.415 117 118.4 117.985 118.4 119.2 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+235 172 m
+370 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+253.4 164.8 m
+253.4 166.015 252.415 167 251.2 167 c
+249.985 167 249 166.015 249 164.8 c
+249 163.585 249.985 162.6 251.2 162.6 c
+252.415 162.6 253.4 163.585 253.4 164.8 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+356 119.2 m
+356 120.415 355.015 121.4 353.8 121.4 c
+352.585 121.4 351.6 120.415 351.6 119.2 c
+351.6 117.985 352.585 117 353.8 117 c
+355.015 117 356 117.985 356 119.2 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+30 40 m
+100 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+40.6 48.64 m
+40.6 49.85503 39.61503 50.84 38.4 50.84 c
+37.18497 50.84 36.2 49.85503 36.2 48.64 c
+36.2 47.42497 37.18497 46.44 38.4 46.44 c
+39.61503 46.44 40.6 47.42497 40.6 48.64 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+93.8 103.36 m
+93.8 104.575 92.81503 105.56 91.6 105.56 c
+90.38497 105.56 89.4 104.575 89.4 103.36 c
+89.4 102.145 90.38497 101.16 91.6 101.16 c
+92.81503 101.16 93.8 102.145 93.8 103.36 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+100 40 m
+100 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+102.2 48.64 m
+102.2 49.85503 101.215 50.84 100 50.84 c
+98.78497 50.84 97.8 49.85503 97.8 48.64 c
+97.8 47.42497 98.78497 46.44 100 46.44 c
+101.215 46.44 102.2 47.42497 102.2 48.64 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+102.2 103.36 m
+102.2 104.575 101.215 105.56 100 105.56 c
+98.78497 105.56 97.8 104.575 97.8 103.36 c
+97.8 102.145 98.78497 101.16 100 101.16 c
+101.215 101.16 102.2 102.145 102.2 103.36 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+170 40 m
+100 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+163.8 48.64 m
+163.8 49.85503 162.815 50.84 161.6 50.84 c
+160.385 50.84 159.4 49.85503 159.4 48.64 c
+159.4 47.42497 160.385 46.44 161.6 46.44 c
+162.815 46.44 163.8 47.42497 163.8 48.64 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+110.6 103.36 m
+110.6 104.575 109.615 105.56 108.4 105.56 c
+107.185 105.56 106.2 104.575 106.2 103.36 c
+106.2 102.145 107.185 101.16 108.4 101.16 c
+109.615 101.16 110.6 102.145 110.6 103.36 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+300 40 m
+370 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+310.6 48.64 m
+310.6 49.85503 309.615 50.84 308.4 50.84 c
+307.185 50.84 306.2 49.85503 306.2 48.64 c
+306.2 47.42497 307.185 46.44 308.4 46.44 c
+309.615 46.44 310.6 47.42497 310.6 48.64 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+363.8 103.36 m
+363.8 104.575 362.815 105.56 361.6 105.56 c
+360.385 105.56 359.4 104.575 359.4 103.36 c
+359.4 102.145 360.385 101.16 361.6 101.16 c
+362.815 101.16 363.8 102.145 363.8 103.36 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+370 40 m
+370 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+372.2 48.64 m
+372.2 49.85503 371.215 50.84 370 50.84 c
+368.785 50.84 367.8 49.85503 367.8 48.64 c
+367.8 47.42497 368.785 46.44 370 46.44 c
+371.215 46.44 372.2 47.42497 372.2 48.64 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+372.2 103.36 m
+372.2 104.575 371.215 105.56 370 105.56 c
+368.785 105.56 367.8 104.575 367.8 103.36 c
+367.8 102.145 368.785 101.16 370 101.16 c
+371.215 101.16 372.2 102.145 372.2 103.36 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+440 40 m
+370 112 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+433.8 48.64 m
+433.8 49.85503 432.815 50.84 431.6 50.84 c
+430.385 50.84 429.4 49.85503 429.4 48.64 c
+429.4 47.42497 430.385 46.44 431.6 46.44 c
+432.815 46.44 433.8 47.42497 433.8 48.64 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+380.6 103.36 m
+380.6 104.575 379.615 105.56 378.4 105.56 c
+377.185 105.56 376.2 104.575 376.2 103.36 c
+376.2 102.145 377.185 101.16 378.4 101.16 c
+379.615 101.16 380.6 102.145 380.6 103.36 c
+B*
+Q
+q
+0.117647 0.533333 0.898039 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+250 172 m
+250 180.2843 243.2843 187 235 187 c
+226.7157 187 220 180.2843 220 172 c
+220 163.7157 226.7157 157 235 157 c
+243.2843 157 250 163.7157 250 172 c
+B*
+Q
+q
+1 1 1 RG
+1.4 w
+0 J
+0 j
+[ ] 0 d
+n
+232.6 172 m
+227 172 l
+S
+Q
+q
+1 1 1 RG
+1.4 w
+0 J
+0 j
+[ ] 0 d
+n
+237.4 172 m
+243 172 l
+S
+Q
+q
+1 1 1 RG
+1.4 w
+0 J
+0 j
+[ ] 0 d
+n
+235 174.4 m
+235 180 l
+S
+Q
+q
+1 1 1 RG
+1.4 w
+0 J
+0 j
+[ ] 0 d
+n
+235 169.6 m
+235 164 l
+S
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 221.6612 142 Tm
+(Router0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 206.452 133 Tm
+(Gig0/0: 192.168.1.1) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 206.452 124.5 Tm
+(Gig0/1: 192.168.2.1) Tj
+T*
+ET
+Q
+q
+0.14902 0.65098 0.603922 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+77 105 46 14 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+80 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+85 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+90 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+95 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+100 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+105 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+110 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+115 107 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 94.76425 113 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 86.87125 86 Tm
+(Switch0) Tj
+T*
+ET
+Q
+q
+0.14902 0.65098 0.603922 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+347 105 46 14 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+350 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+355 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+360 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+365 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+370 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+375 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+380 107 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+385 107 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 364.7643 113 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 356.8712 86 Tm
+(Switch1) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+17 38 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+19.5 40.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+21 31 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 22.70625 18 Tm
+(PC0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 12.8335 9 Tm
+(192.168.1.2) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+87 38 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+89.5 40.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+91 31 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 92.70625 18 Tm
+(PC1) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 82.8335 9 Tm
+(192.168.1.3) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+157 38 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+159.5 40.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+161 31 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 162.7063 18 Tm
+(PC2) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 152.8335 9 Tm
+(192.168.1.4) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+287 38 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+289.5 40.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+291 31 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 292.7063 18 Tm
+(PC3) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 282.8335 9 Tm
+(192.168.2.2) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+357 38 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+359.5 40.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+361 31 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 362.7063 18 Tm
+(PC4) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 352.8335 9 Tm
+(192.168.2.3) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+427 38 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+429.5 40.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+431 31 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 432.7063 18 Tm
+(PC5) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 422.8335 9 Tm
+(192.168.2.4) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 277.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+176.3849 0 Td
+(Packet Tracer view of Part \(a\)) Tj
+T*
+-176.3849 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 57.99685 cm
+0 0 0 rg
+0 0 0 RG
+n
+0 0 481.8898 211.2 re
+f*
+0.172549 0.435294 0.733333 rg
+n
+0 196.2 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 8 200.7 Tm
+(R1 - CLI) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+(R1\(config-if\)#) Tj
+T*
+ET
+1 1 0.4 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 69.84 185.8 Tm
+(no shutdown) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(%LINK-5-CHANGED: Interface GigabitEthernet0/0, changed state to up) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(%LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(R1\(config-if\)#) Tj
+T*
+ET
+1 1 0.4 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 69.84 146.6 Tm
+(end) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+(R1#) Tj
+T*
+ET
+1 1 0.4 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 19.68 136.8 Tm
+(show ip interface brief) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(Interface              IP-Address      ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 183.84 127 Tm
+(OK) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 192.96 127 Tm
+(? Method Status                Protocol) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(GigabitEthernet0/0     192.168.1.1     YES manual up                    up) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(GigabitEthernet0/1     192.168.2.1     YES manual up                    up) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(Vlan1                  unassigned      YES unset  administratively down down) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(R1#) Tj
+T*
+ET
+1 1 0.4 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 19.68 87.8 Tm
+(show ip route) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Gateway of last resort is not set) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(     192.168.1.0/24 is variably subnetted, 2 subnets, 2 masks) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(C       192.168.1.0/24 is directly connected, GigabitEthernet0/0) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(L       192.168.1.1/32 is directly connected, GigabitEthernet0/0) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(     192.168.2.0/24 is variably subnetted, 2 subnets, 2 masks) Tj
+T*
+ET
+Q
+endstream
+endobj
+16 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 17999
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(4) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 740.5969 cm
+0 0 0 rg
+0 0 0 RG
+n
+0 0 481.8898 44.6 re
+f*
+0.172549 0.435294 0.733333 rg
+n
+0 29.6 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 8 34.1 Tm
+(R1 - CLI \(contd.\)) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(C       192.168.2.0/24 is directly connected, GigabitEthernet0/1) Tj
+T*
+ET
+0.909804 0.909804 0.909804 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(L       192.168.2.1/32 is directly connected, GigabitEthernet0/1) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 731.5969 cm
+Q
+q
+1 0 0 1 56.69291 490.9969 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 240.6 re
+B*
+1 1 1 rg
+n
+0 225.6 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 230.1 Tm
+(PC0 - Command Prompt) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 215.2 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 215.2 Tm
+(ping 192.168.2.3) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 205.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 195.6 Tm
+(Pinging 192.168.2.3 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+T*
+ET
+1 0.419608 0.419608 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+(Request timed out) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 83.52 176 Tm
+(.) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(Reply from 192.168.2.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 138.24 166.2 Tm
+(=32 time=2ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(Reply from 192.168.2.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 138.24 156.4 Tm
+(=32 time=1ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(Reply from 192.168.2.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 138.24 146.6 Tm
+(=32 time=1ms TTL=127) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(Ping statistics for 192.168.2.3:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(    Packets: Sent = 4, Received = 3, Lost = 1 \(25% loss\),) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(Approximate round trip times in milli-seconds:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(    Minimum = 0ms, Maximum = 2ms, Average = 1ms) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 78 Tm
+(tracert 192.168.2.3) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Tracing route to 192.168.2.3 over a maximum of 30 hops:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(  1   0 ms      0 ms      0 ms      192.168.1.1) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(  2   0 ms      0 ms      1 ms      192.168.2.3) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Trace complete.) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 481.9969 cm
+Q
+q
+1 0 0 1 90.4252 364.9969 cm
+q
+0.85098 0.886275 0.952941 rg
+n
+0 117 414.4252 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 104 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 104 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 91 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 91 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 78 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 78 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 65 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 65 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 52 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 52 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 39 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 39 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 26 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 26 38.55118 -13 re
+f*
+0.784314 0.901961 0.788235 rg
+n
+24.09449 13 57.82677 -13 re
+f*
+0.298039 0.686275 0.313725 rg
+n
+231.3071 13 38.55118 -13 re
+f*
+0 0 0 rg
+BT
+/F6 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 3 107.5 Tm
+(Fire) Tj
+T*
+ET
+BT
+1 0 0 1 27.09449 107.5 Tm
+(Last Status) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 107.5 Tm
+(Source) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 107.5 Tm
+(Destination) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 107.5 Tm
+(Type) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 107.5 Tm
+(Color) Tj
+T*
+ET
+BT
+1 0 0 1 272.8583 107.5 Tm
+(Time\(sec\)) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 107.5 Tm
+(Periodic) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 107.5 Tm
+(Num) Tj
+T*
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+1 0 0 1 3 94.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 94.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 94.5 Tm
+(PC0) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 94.5 Tm
+(Switch0) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 94.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 94.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 94.5 Tm
+(0.000) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 94.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 94.5 Tm
+(0) Tj
+T*
+ET
+BT
+1 0 0 1 3 81.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 81.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 81.5 Tm
+(Switch0) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 81.5 Tm
+(Router0) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 81.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 81.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 81.5 Tm
+(0.001) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 81.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 81.5 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 3 68.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 68.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 68.5 Tm
+(Router0) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 68.5 Tm
+(Switch1) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 68.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 68.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 68.5 Tm
+(0.002) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 68.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 68.5 Tm
+(2) Tj
+T*
+ET
+BT
+1 0 0 1 3 55.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 55.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 55.5 Tm
+(Switch1) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 55.5 Tm
+(PC3) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 55.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 55.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 55.5 Tm
+(0.003) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 55.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 55.5 Tm
+(3) Tj
+T*
+ET
+BT
+1 0 0 1 3 42.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 42.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 42.5 Tm
+(PC3) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 42.5 Tm
+(Switch1) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 42.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 42.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 42.5 Tm
+(0.004) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 42.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 42.5 Tm
+(4) Tj
+T*
+ET
+BT
+1 0 0 1 3 29.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 29.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 29.5 Tm
+(Switch1) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 29.5 Tm
+(Router0) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 29.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 29.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 29.5 Tm
+(0.005) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 29.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 29.5 Tm
+(5) Tj
+T*
+ET
+BT
+1 0 0 1 3 16.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 16.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 16.5 Tm
+(Router0) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 16.5 Tm
+(Switch0) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 16.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 16.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 16.5 Tm
+(0.006) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 16.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 16.5 Tm
+(6) Tj
+T*
+ET
+BT
+1 0 0 1 3 3.5 Tm
+T*
+ET
+BT
+1 0 0 1 27.09449 3.5 Tm
+(Successful) Tj
+T*
+ET
+BT
+1 0 0 1 84.92126 3.5 Tm
+(Switch0) Tj
+T*
+ET
+BT
+1 0 0 1 133.1102 3.5 Tm
+(PC0) Tj
+T*
+ET
+BT
+1 0 0 1 195.7559 3.5 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 234.3071 3.5 Tm
+T*
+ET
+BT
+1 0 0 1 272.8583 3.5 Tm
+(0.007) Tj
+T*
+ET
+BT
+1 0 0 1 330.685 3.5 Tm
+(N) Tj
+T*
+ET
+BT
+1 0 0 1 378.874 3.5 Tm
+(7) Tj
+T*
+ET
+q
+1 J
+1 j
+0.533333 0.533333 0.533333 RG
+0.4 w
+n
+0 117 m
+414.4252 117 l
+S
+n
+0 0 m
+414.4252 0 l
+S
+n
+0 0 m
+0 117 l
+S
+n
+414.4252 0 m
+414.4252 117 l
+S
+n
+0 104 m
+414.4252 104 l
+S
+n
+0 91 m
+414.4252 91 l
+S
+n
+0 78 m
+414.4252 78 l
+S
+n
+0 65 m
+414.4252 65 l
+S
+n
+0 52 m
+414.4252 52 l
+S
+n
+0 39 m
+414.4252 39 l
+S
+n
+0 26 m
+414.4252 26 l
+S
+n
+0 13 m
+414.4252 13 l
+S
+n
+24.09449 0 m
+24.09449 117 l
+S
+n
+81.92126 0 m
+81.92126 117 l
+S
+n
+130.1102 0 m
+130.1102 117 l
+S
+n
+192.7559 0 m
+192.7559 117 l
+S
+n
+231.3071 0 m
+231.3071 117 l
+S
+n
+269.8583 0 m
+269.8583 117 l
+S
+n
+327.685 0 m
+327.685 117 l
+S
+n
+375.874 0 m
+375.874 117 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 360.9969 cm
+Q
+q
+1 0 0 1 56.69291 330.9969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 19 Tm
+/F3 11 Tf
+15 TL
+(The router receives the frame on Gig0/0, removes the Ethernet header, looks at the destination IP in the) Tj
+T*
+(routing table, and sends a new frame out of Gig0/1 to PC3.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 322.9969 cm
+Q
+q
+1 0 0 1 56.69291 300.9969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Part \(b\) - Wireless router, DHCP and internet cloud) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 90.99685 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+1 1 1 rg
+0.333333 0.333333 0.333333 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+0 0 470 206 re
+B*
+Q
+q
+0.121569 0.372549 0.658824 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+0 190 470 16 re
+B*
+Q
+q
+BT
+/F6 8 Tf
+9.6 TL
+ET
+BT
+/F6 8 Tf
+9.6 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 8 195 Tm
+(Cisco Packet Tracer - wireless_dhcp.pkt) Tj
+T*
+ET
+Q
+q
+0.956863 0.964706 0.980392 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+1 1 468 189 re
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+130 130 m
+235 130 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+144.8 130 m
+144.8 131.215 143.815 132.2 142.6 132.2 c
+141.385 132.2 140.4 131.215 140.4 130 c
+140.4 128.785 141.385 127.8 142.6 127.8 c
+143.815 127.8 144.8 128.785 144.8 130 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+224.6 130 m
+224.6 131.215 223.615 132.2 222.4 132.2 c
+221.185 132.2 220.2 131.215 220.2 130 c
+220.2 128.785 221.185 127.8 222.4 127.8 c
+223.615 127.8 224.6 128.785 224.6 130 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+235 130 m
+330 130 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+248.6 130 m
+248.6 131.215 247.615 132.2 246.4 132.2 c
+245.185 132.2 244.2 131.215 244.2 130 c
+244.2 128.785 245.185 127.8 246.4 127.8 c
+247.615 127.8 248.6 128.785 248.6 130 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+320.8 130 m
+320.8 131.215 319.815 132.2 318.6 132.2 c
+317.385 132.2 316.4 131.215 316.4 130 c
+316.4 128.785 317.385 127.8 318.6 127.8 c
+319.815 127.8 320.8 128.785 320.8 130 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+330 130 m
+430 130 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+344.2 130 m
+344.2 131.215 343.215 132.2 342 132.2 c
+340.785 132.2 339.8 131.215 339.8 130 c
+339.8 128.785 340.785 127.8 342 127.8 c
+343.215 127.8 344.2 128.785 344.2 130 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+420.2 130 m
+420.2 131.215 419.215 132.2 418 132.2 c
+416.785 132.2 415.8 131.215 415.8 130 c
+415.8 128.785 416.785 127.8 418 127.8 c
+419.215 127.8 420.2 128.785 420.2 130 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ ] 0 d
+n
+40 45 m
+130 130 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+53 55.2 m
+53 56.41503 52.01503 57.4 50.8 57.4 c
+49.58497 57.4 48.6 56.41503 48.6 55.2 c
+48.6 53.98497 49.58497 53 50.8 53 c
+52.01503 53 53 53.98497 53 55.2 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+121.4 119.8 m
+121.4 121.015 120.415 122 119.2 122 c
+117.985 122 117 121.015 117 119.8 c
+117 118.585 117.985 117.6 119.2 117.6 c
+120.415 117.6 121.4 118.585 121.4 119.8 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+130 45 m
+130 130 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+132.2 55.2 m
+132.2 56.41503 131.215 57.4 130 57.4 c
+128.785 57.4 127.8 56.41503 127.8 55.2 c
+127.8 53.98497 128.785 53 130 53 c
+131.215 53 132.2 53.98497 132.2 55.2 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+132.2 119.8 m
+132.2 121.015 131.215 122 130 122 c
+128.785 122 127.8 121.015 127.8 119.8 c
+127.8 118.585 128.785 117.6 130 117.6 c
+131.215 117.6 132.2 118.585 132.2 119.8 c
+B*
+Q
+q
+0.129412 0.129412 0.129412 RG
+1.2 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+220 45 m
+130 130 l
+S
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+211.4 55.2 m
+211.4 56.41503 210.415 57.4 209.2 57.4 c
+207.985 57.4 207 56.41503 207 55.2 c
+207 53.98497 207.985 53 209.2 53 c
+210.415 53 211.4 53.98497 211.4 55.2 c
+B*
+Q
+q
+0.180392 0.490196 0.196078 rg
+0 0 0 RG
+0.3 w
+0 J
+0 j
+[ ] 0 d
+n
+143 119.8 m
+143 121.015 142.015 122 140.8 122 c
+139.585 122 138.6 121.015 138.6 119.8 c
+138.6 118.585 139.585 117.6 140.8 117.6 c
+142.015 117.6 143 118.585 143 119.8 c
+B*
+Q
+q
+0.890196 0.94902 0.992157 rg
+0.564706 0.792157 0.976471 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+327 130 m
+327 136.0751 322.0751 141 316 141 c
+309.9249 141 305 136.0751 305 130 c
+305 123.9249 309.9249 119 316 119 c
+322.0751 119 327 123.9249 327 130 c
+B*
+Q
+q
+0.890196 0.94902 0.992157 rg
+0.564706 0.792157 0.976471 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+343 136 m
+343 143.1797 337.1797 149 330 149 c
+322.8203 149 317 143.1797 317 136 c
+317 128.8203 322.8203 123 330 123 c
+337.1797 123 343 128.8203 343 136 c
+B*
+Q
+q
+0.890196 0.94902 0.992157 rg
+0.564706 0.792157 0.976471 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+355 130 m
+355 136.0751 350.0751 141 344 141 c
+337.9249 141 333 136.0751 333 130 c
+333 123.9249 337.9249 119 344 119 c
+350.0751 119 355 123.9249 355 130 c
+B*
+Q
+q
+0.890196 0.94902 0.992157 rg
+0.564706 0.792157 0.976471 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+342 127 m
+342 133.6274 336.6274 139 330 139 c
+323.3726 139 318 133.6274 318 127 c
+318 120.3726 323.3726 115 330 115 c
+336.6274 115 342 120.3726 342 127 c
+B*
+Q
+q
+0.890196 0.94902 0.992157 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+308 118 44 14 re
+B*
+Q
+q
+BT
+/F3 7.5 Tf
+9 TL
+ET
+BT
+/F3 7.5 Tf
+9 TL
+ET
+0.082353 0.396078 0.752941 rg
+BT
+1 0 0 1 318.3375 129 Tm
+(Internet) Tj
+T*
+ET
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 318.12 100 Tm
+(Cloud0) Tj
+T*
+ET
+Q
+q
+0.470588 0.564706 0.611765 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+420 115 20 30 re
+B*
+Q
+q
+1 1 1 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+423 138 m
+437 138 l
+S
+Q
+q
+1 1 1 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+423 131 m
+437 131 l
+S
+Q
+q
+1 1 1 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+423 124 m
+437 124 l
+S
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 416.8712 102 Tm
+(Server0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 411.0265 93 Tm
+(203.0.113.10) Tj
+T*
+ET
+Q
+q
+1 0.717647 0.301961 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+212 123 46 14 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+215 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+220 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+225 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+230 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+235 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+240 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+245 125 3 3 re
+B*
+Q
+q
+0.14902 0.196078 0.219608 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+250 125 3 3 re
+B*
+Q
+q
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+BT
+/F6 6.5 Tf
+7.8 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 227.9605 131 Tm
+(HUB) Tj
+T*
+ET
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 211.66 104 Tm
+(Cable Modem) Tj
+T*
+ET
+Q
+q
+0.494118 0.341176 0.760784 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+110 123 40 14 re
+B*
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+116 137 m
+113 147 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+144 137 m
+147 147 l
+S
+Q
+q
+BT
+/F6 7 Tf
+8.4 TL
+ET
+BT
+/F6 7 Tf
+8.4 TL
+ET
+1 1 1 rg
+BT
+1 0 0 1 124.169 128 Tm
+(WR) Tj
+T*
+ET
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 101.245 104 Tm
+(Wireless Router0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 112.8335 95 Tm
+(192.168.0.1) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+27 43 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+29.5 45.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+31 36 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 32.70625 23 Tm
+(PC0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 19.2195 14 Tm
+(192.168.0.100) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+117 43 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+119.5 45.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+121 36 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 116.4475 23 Tm
+(Laptop0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 109.2195 14 Tm
+(192.168.0.101) Tj
+T*
+ET
+Q
+q
+0.215686 0.278431 0.309804 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+207 43 26 18 re
+B*
+Q
+q
+0.309804 0.764706 0.968627 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+209.5 45.5 21 13 re
+B*
+Q
+q
+0.690196 0.745098 0.772549 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+211 36 18 6 re
+B*
+Q
+q
+BT
+/F1 7.5 Tf
+9 TL
+ET
+BT
+/F1 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 197.4888 23 Tm
+(Smartphone0) Tj
+T*
+ET
+Q
+q
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+BT
+/F1 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 199.2195 14 Tm
+(192.168.0.102) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 75.99685 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+176.1049 0 Td
+(Packet Tracer view of Part \(b\)) Tj
+T*
+-176.1049 0 Td
+ET
+Q
+Q
+endstream
+endobj
+18 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 6516
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(5) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 495.5969 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 289.6 re
+B*
+1 1 1 rg
+n
+0 274.6 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 279.1 Tm
+(Laptop0 - Command Prompt) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 264.2 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 264.2 Tm
+(ipconfig /all) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 254.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 244.6 Tm
+(Wireless0 Connection:\(default port\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 234.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 225 Tm
+(   Connection-specific DNS Suffix..: ) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 215.2 Tm
+(   Physical Address................: 0001.C7AB.4D12) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 205.4 Tm
+(   Link-local IPv6 Address.........: FE80::201:C7FF:FEAB:4D12) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 195.6 Tm
+(   IPv6 Address....................: ::) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+(   IP Address......................: 192.168.0.101) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+(   Subnet Mask.....................: 255.255.255.0) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(   Default Gateway.................: 192.168.0.1) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(   DHCP Servers....................: 192.168.0.1) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(   DNS Servers.....................: 0.0.0.0) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 127 Tm
+(ping 203.0.113.10) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(Pinging 203.0.113.10 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(Reply from 203.0.113.10: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 142.8 87.8 Tm
+(=32 time=21ms TTL=126) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(Reply from 203.0.113.10: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 142.8 78 Tm
+(=32 time=12ms TTL=126) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(Reply from 203.0.113.10: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 142.8 68.2 Tm
+(=32 time=14ms TTL=126) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Reply from 203.0.113.10: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 142.8 58.4 Tm
+(=32 time=11ms TTL=126) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Ping statistics for 203.0.113.10:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 215.76 29 Tm
+(\(0% loss\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 256.8 29 Tm
+(,) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Approximate round trip times in milli-seconds:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(    Minimum = 11ms, Maximum = 21ms, Average = 14ms) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 486.5969 cm
+Q
+q
+1 0 0 1 56.69291 404.5969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 82 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Device) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 92.74016 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Connection) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Method) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 266.2205 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(IP address received) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 381.874 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Ping to server) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 92.74016 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Wired \(LAN port\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(DHCP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 266.2205 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(192.168.0.100) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 381.874 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Successful) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Laptop0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 92.74016 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Wireless \(LabNet\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(DHCP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 266.2205 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(192.168.0.101) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 381.874 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Successful) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Smartphone0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 92.74016 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Wireless \(LabNet\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(DHCP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 266.2205 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(192.168.0.102) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 381.874 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Successful) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 82 m
+481.8898 82 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 82 l
+S
+n
+481.8898 0 m
+481.8898 82 l
+S
+n
+0 61.5 m
+481.8898 61.5 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+86.74016 0 m
+86.74016 82 l
+S
+n
+202.3937 0 m
+202.3937 82 l
+S
+n
+260.2205 0 m
+260.2205 82 l
+S
+n
+375.874 0 m
+375.874 82 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 396.5969 cm
+Q
+endstream
+endobj
+20 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 8337
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(6) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 771.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Part \(c\) - Lab network with switches, router and Ethernet cables) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 399.1969 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 368 re
+B*
+1 1 1 rg
+n
+0 353 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 357.5 Tm
+(PC1 - Command Prompt) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 342.6 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 342.6 Tm
+(ipconfig) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 332.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 323 Tm
+(FastEthernet0 Connection:\(default port\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 313.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 303.4 Tm
+(   IP Address......................: 172.16.1.2) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 293.6 Tm
+(   Subnet Mask.....................: 255.255.255.0) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 283.8 Tm
+(   Default Gateway.................: 172.16.1.1) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 274 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 264.2 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 264.2 Tm
+(ping 172.16.1.3) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 254.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 244.6 Tm
+(Pinging 172.16.1.3 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 234.8 Tm
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 225 Tm
+(Reply from 172.16.1.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 225 Tm
+(=32 time=1ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 215.2 Tm
+(Reply from 172.16.1.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 215.2 Tm
+(=32 time=<1ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 205.4 Tm
+(Reply from 172.16.1.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 205.4 Tm
+(=32 time=<1ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 195.6 Tm
+(Reply from 172.16.1.3: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 195.6 Tm
+(=32 time=<1ms TTL=127) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+(Ping statistics for 172.16.1.3:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 215.76 166.2 Tm
+(\(0% loss\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 256.8 166.2 Tm
+(,) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(Approximate round trip times in milli-seconds:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(    Minimum = 0ms, Maximum = 2ms, Average = 1ms) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(C:\\>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 24.24 127 Tm
+(ping 172.16.2.4) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(Pinging 172.16.2.4 with 32 bytes of data:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+T*
+ET
+1 0.419608 0.419608 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(Request timed out) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 83.52 87.8 Tm
+(.) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(Reply from 172.16.2.4: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 78 Tm
+(=32 time=2ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(Reply from 172.16.2.4: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 68.2 Tm
+(=32 time=1ms TTL=127) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Reply from 172.16.2.4: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 58.4 Tm
+(=32 time=1ms TTL=127) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Ping statistics for 172.16.2.4:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    Packets: Sent = 4, Received = 3, Lost = 1 \(25% loss\),) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Approximate round trip times in milli-seconds:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(    Minimum = 0ms, Maximum = 2ms, Average = 1ms) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 390.1969 cm
+Q
+q
+1 0 0 1 56.69291 308.1969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 82 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Source) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 112.0157 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Destination) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 218.0315 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Same network?) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Through router?) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 401.1496 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Result) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC1 \(172.16.1.2\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 112.0157 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC3 \(172.16.1.4\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 218.0315 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Yes) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(No) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 401.1496 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Successful) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC1 \(172.16.1.2\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 112.0157 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC4 \(172.16.2.2\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 218.0315 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(No) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Yes) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 401.1496 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Successful) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC6 \(172.16.2.4\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 112.0157 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC2 \(172.16.1.3\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 218.0315 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(No) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Yes) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 401.1496 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Successful) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 82 m
+481.8898 82 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 82 l
+S
+n
+481.8898 0 m
+481.8898 82 l
+S
+n
+0 61.5 m
+481.8898 61.5 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+106.0157 0 m
+106.0157 82 l
+S
+n
+212.0315 0 m
+212.0315 82 l
+S
+n
+298.7717 0 m
+298.7717 82 l
+S
+n
+395.1496 0 m
+395.1496 82 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 300.1969 cm
+Q
+q
+1 0 0 1 56.69291 274.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+56.342 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(RESULT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 223.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 34 Tm
+/F3 11 Tf
+15 TL
+(Thus the internetworks were designed and configured in Cisco Packet Tracer using a router with static IP) Tj
+T*
+(addresses, a wireless router with DHCP server and internet cloud, and a lab network using switches, a router) Tj
+T*
+(and Ethernet cables. The packet transmission across the networks was traced in simulation mode.) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+22 0 obj
+<<
+/Contents 21 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000148 00000 n 
+0000000197 00000 n 
+0000008400 00000 n 
+0000008599 00000 n 
+0000008683 00000 n 
+0000008790 00000 n 
+0000008898 00000 n 
+0000009007 00000 n 
+0000009113 00000 n 
+0000009224 00000 n 
+0000009337 00000 n 
+0000022708 00000 n 
+0000022909 00000 n 
+0000043324 00000 n 
+0000043525 00000 n 
+0000061578 00000 n 
+0000061779 00000 n 
+0000068348 00000 n 
+0000068549 00000 n 
+0000076939 00000 n 
+trailer
+<<
+/Size 23
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+77140
+%%EOF
