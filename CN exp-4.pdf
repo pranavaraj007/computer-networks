@@ -1,0 +1,2645 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 5 0 R 13 0 R 15 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 10099
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(1) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 755.1969 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 0.5 Tm
+/F2 11.5 Tf
+12 TL
+(Exp No: 4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Setup and configure a LAN using a Switch and Ethernet cables) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n
+0 30 m
+481.8898 30 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 30 l
+S
+n
+481.8898 0 m
+481.8898 30 l
+S
+n
+96.37795 0 m
+96.37795 30 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 747.1969 cm
+Q
+q
+1 0 0 1 56.69291 721.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+31.044 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(AIM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 685.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 19 Tm
+/F3 11 Tf
+15 TL
+-0.040062 Tw
+(To set up and configure a LAN using a switch and Ethernet cables, assign IP addresses to the hosts, check the) Tj
+T*
+0 Tw
+(connectivity using the ping command and share files and folders across the machines of the LAN.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 659.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+180.557 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(ALGORITHM / PROCEDURE:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 623.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 19 Tm
+/F3 11 Tf
+15 TL
+(Connect 4 host machines to the switch using straight-through UTP cables \(RJ45\). Check that the link) Tj
+T*
+(LEDs of the switch glow.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 590.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Assign a static IP address to each host: ) Tj
+/F2 11 Tf
+(Windows) Tj
+/F3 11 Tf
+(, Control Panel > Network and Sharing Centre >) Tj
+T*
+(Change adapter settings > Ethernet > Properties > IPv4 \(or run ) Tj
+/F4 9.5 Tf
+(ncpa.cpl) Tj
+/F3 11 Tf
+(\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 557.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Use the addresses ) Tj
+/F4 9.5 Tf
+(192.168.10.11) Tj
+/F3 11 Tf
+( to ) Tj
+/F4 9.5 Tf
+(192.168.10.14) Tj
+/F3 11 Tf
+( with subnet mask ) Tj
+/F4 9.5 Tf
+(255.255.255.0) Tj
+/F3 11 Tf
+(. Leave the) Tj
+T*
+(default gateway empty because there is only one network.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 539.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Open the Command Prompt and verify the settings with ) Tj
+/F4 9.5 Tf
+(ipconfig) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 506.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Check the connectivity between the machines with ) Tj
+/F4 9.5 Tf
+(ping) Tj
+/F3 11 Tf
+(, for example from PC1 ) Tj
+/F4 9.5 Tf
+(ping) Tj
+T*
+(192.168.10.12) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 473.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(6.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(On PC1 create a folder ) Tj
+/F4 9.5 Tf
+(LabShare) Tj
+/F3 11 Tf
+(, right click > Properties > Sharing > Advanced Sharing > tick ) Tj
+/F2 11 Tf
+(Share) Tj
+T*
+(this folder) Tj
+/F3 11 Tf
+( and give ) Tj
+/F2 11 Tf
+(Read/Write) Tj
+/F3 11 Tf
+( permission to ) Tj
+/F2 11 Tf
+(Everyone) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 440.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(7.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(On PC2 open ) Tj
+/F2 11 Tf
+(File Explorer) Tj
+/F3 11 Tf
+( and type ) Tj
+/F4 9.5 Tf
+(\\\\192.168.10.11) Tj
+/F3 11 Tf
+( in the address bar. The files of PC1 are) Tj
+T*
+(displayed.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 407.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(8.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(The folder can also be mapped as a drive with ) Tj
+/F4 9.5 Tf
+(net use Z: \\\\192.168.10.11\\LabShare) Tj
+/F3 11 Tf
+( and the) Tj
+T*
+(shared files can be copied between the machines.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 389.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(9.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Note down the output of each command.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 283.6969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 102.5 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Host) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(IP address) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Subnet mask) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 391.5118 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Switch port) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 66.25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(192.168.10.11) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 66.25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(255.255.255.0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 391.5118 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Fa0/1) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 45.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(192.168.10.12) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 45.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(255.255.255.0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 391.5118 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Fa0/2) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 25.25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(192.168.10.13) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 25.25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(255.255.255.0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 391.5118 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Fa0/3) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(PC4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 4.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(192.168.10.14) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 246.9449 4.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(255.255.255.0) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 391.5118 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Fa0/4) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 102.5 m
+481.8898 102.5 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 102.5 l
+S
+n
+481.8898 0 m
+481.8898 102.5 l
+S
+n
+0 82 m
+481.8898 82 l
+S
+n
+0 61.5 m
+481.8898 61.5 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+96.37795 0 m
+96.37795 102.5 l
+S
+n
+240.9449 0 m
+240.9449 102.5 l
+S
+n
+385.5118 0 m
+385.5118 102.5 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 257.6969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+69.316 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(DIAGRAM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 81.69685 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+50 45 m
+235 120 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+165 45 m
+235 120 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+305 45 m
+235 120 l
+S
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+420 45 m
+235 120 l
+S
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+212 113 46 14 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+215 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+220 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+225 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+230 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+235 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+240 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+245 115 3 3 re
+B*
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0 w
+0 J
+0 j
+[ ] 0 d
+n
+250 115 3 3 re
+B*
+Q
+q
+BT
+/F5 6.5 Tf
+7.8 TL
+ET
+BT
+/F5 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 229.7643 119 Tm
+(SW) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 224.1662 94 Tm
+(Switch) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+37 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+39.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+41 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 46.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 43.12625 23 Tm
+(PC1) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 31.3125 14 Tm
+(192.168.10.11) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+152 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+154.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+156 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 161.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 158.1262 23 Tm
+(PC2) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 146.3125 14 Tm
+(192.168.10.12) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+292 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+294.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+296 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 301.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 298.1263 23 Tm
+(PC3) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 286.3125 14 Tm
+(192.168.10.13) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+407 43 26 18 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+409.5 45.5 21 13 re
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+411 36 18 6 re
+B*
+Q
+q
+BT
+/F3 6 Tf
+7.2 TL
+ET
+BT
+/F3 6 Tf
+7.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 416.331 49 Tm
+(PC) Tj
+T*
+ET
+Q
+q
+BT
+/F2 7.5 Tf
+9 TL
+ET
+BT
+/F2 7.5 Tf
+9 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 413.1263 23 Tm
+(PC4) Tj
+T*
+ET
+Q
+q
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+BT
+/F3 6.5 Tf
+7.8 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 401.3125 14 Tm
+(192.168.10.14) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 66.69685 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+111.0949 0 Td
+(Fig 1: LAN with 4 hosts connected to a switch \(star topology\)) Tj
+T*
+-111.0949 0 Td
+ET
+Q
+Q
+endstream
+endobj
+5 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/Length 10204
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(2) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 769.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+58.5 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(OUTPUT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 630.3969 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 132.8 re
+B*
+1 1 1 rg
+n
+0 117.8 481.8898 15 re
+f*
+BT
+/F5 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 122.3 Tm
+(Command Prompt - PC1) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 107.4 Tm
+(ipconfig) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(Windows IP Configuration) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(Ethernet adapter Ethernet:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(   Connection-specific DNS Suffix  . :) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(   Link-local IPv6 Address . . . . . : fe80::6c1f:3a2e:91b4:d7c2%8) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(   IPv4 Address. . . . . . . . . . . : 192.168.10.11) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(   Subnet Mask . . . . . . . . . . . : 255.255.255.0) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(   Default Gateway . . . . . . . . . :) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 621.3969 cm
+Q
+q
+1 0 0 1 56.69291 243.5969 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 377.8 re
+B*
+1 1 1 rg
+n
+0 362.8 481.8898 15 re
+f*
+BT
+/F5 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 367.3 Tm
+(Command Prompt - PC1) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 352.4 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 352.4 Tm
+(ping 192.168.10.12) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 342.6 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 332.8 Tm
+(Pinging 192.168.10.12 with 32 bytes of data:) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 323 Tm
+(Reply from 192.168.10.12: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 323 Tm
+(=32 time=1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 313.2 Tm
+(Reply from 192.168.10.12: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 313.2 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 303.4 Tm
+(Reply from 192.168.10.12: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 303.4 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 293.6 Tm
+(Reply from 192.168.10.12: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 293.6 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 283.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 274 Tm
+(Ping statistics for 192.168.10.12:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 264.2 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 215.76 264.2 Tm
+(\(0% loss\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 256.8 264.2 Tm
+(,) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 254.4 Tm
+(Approximate round trip times in milli-seconds:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 244.6 Tm
+(    Minimum = 0ms, Maximum = 1ms, Average = 0ms) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 234.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 225 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 225 Tm
+(ping 192.168.10.13) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 215.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 205.4 Tm
+(Pinging 192.168.10.13 with 32 bytes of data:) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 195.6 Tm
+(Reply from 192.168.10.13: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 195.6 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+(Reply from 192.168.10.13: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 185.8 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+(Reply from 192.168.10.13: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 176 Tm
+(=32 time=1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(Reply from 192.168.10.13: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 166.2 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(Ping statistics for 192.168.10.13:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 215.76 136.8 Tm
+(\(0% loss\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 256.8 136.8 Tm
+(,) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(Approximate round trip times in milli-seconds:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(    Minimum = 0ms, Maximum = 1ms, Average = 0ms) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 97.6 Tm
+(ping 192.168.10.14) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(Pinging 192.168.10.14 with 32 bytes of data:) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(Reply from 192.168.10.14: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 68.2 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Reply from 192.168.10.14: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 58.4 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(Reply from 192.168.10.14: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 48.6 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Reply from 192.168.10.14: bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 147.36 38.8 Tm
+(=32 time<1ms TTL=128) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Ping statistics for 192.168.10.14:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(    Packets: Sent = 4, Received = 4, Lost = 0 ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 215.76 9.4 Tm
+(\(0% loss\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 256.8 9.4 Tm
+(,) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 234.5969 cm
+Q
+q
+1 0 0 1 56.69291 52.79685 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 181.8 re
+B*
+1 1 1 rg
+n
+0 166.8 481.8898 15 re
+f*
+BT
+/F5 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 171.3 Tm
+(Command Prompt - PC2) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 156.4 Tm
+(net view \\\\192.168.10.11) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(Shared resources at \\\\192.168.10.11) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(Share name   Type   Used as   Comment) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(-------------------------------------------------) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(LabShare     Disk) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(The command completed ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 106.32 97.6 Tm
+(successfully) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 161.04 97.6 Tm
+(.) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 78 Tm
+(net use Z: \\\\192.168.10.11\\LabShare) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(The command completed ) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 106.32 68.2 Tm
+(successfully) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 161.04 68.2 Tm
+(.) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 48.6 Tm
+(dir Z:) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+( Volume in drive Z is LabShare) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+( Directory of Z:\\) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(07-10-2026  08:42 PM    <DIR>          .) Tj
+T*
+ET
+Q
+endstream
+endobj
+13 0 obj
+<<
+/Contents 12 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 2085
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(3) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 671.9969 cm
+0.047059 0.047059 0.047059 rg
+0.533333 0.533333 0.533333 RG
+0.8 w
+n
+0 0 481.8898 113.2 re
+B*
+1 1 1 rg
+n
+0 98.2 481.8898 15 re
+f*
+BT
+/F5 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 102.7 Tm
+(Command Prompt - PC2 \(contd.\)) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(07-10-2026  08:42 PM    <DIR>          ..) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(07-10-2026  08:40 PM            14,336 CN_Lab_Notes.docx) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(07-10-2026  08:41 PM           212,480 Exp4_Topology.png) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(07-10-2026  08:42 PM             1,024 hosts_list.txt) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(               3 File\(s\)        227,840 bytes) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(               2 Dir\(s\)  48,213,327,872 bytes free) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(C:\\Users\\Pranavraj>) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 78.96 19.2 Tm
+(copy Z:\\hosts_list.txt C:\\Users\\Pranavraj\\Desktop) Tj
+T*
+ET
+0.8 0.8 0.8 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(        1 file\(s\) copied.) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 662.9969 cm
+Q
+q
+1 0 0 1 56.69291 636.9969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+56.342 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(RESULT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 585.9969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 34 Tm
+/F3 11 Tf
+15 TL
+(Thus a LAN was set up with 4 hosts connected to a switch using Ethernet cables, the IP addresses were) Tj
+T*
+(assigned, the connectivity was verified using the ping command and files were shared and accessed across) Tj
+T*
+(the machines of the LAN.) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+15 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000010328 00000 n 
+0000010527 00000 n 
+0000010600 00000 n 
+0000010707 00000 n 
+0000010815 00000 n 
+0000010924 00000 n 
+0000011030 00000 n 
+0000011143 00000 n 
+0000021401 00000 n 
+0000021602 00000 n 
+0000023740 00000 n 
+trailer
+<<
+/Size 16
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+23941
+%%EOF

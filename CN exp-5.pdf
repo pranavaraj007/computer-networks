@@ -1,0 +1,2823 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 3
+/Kids [ 5 0 R 14 0 R 16 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 8141
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(1) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 755.1969 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 0.5 Tm
+/F2 11.5 Tf
+12 TL
+(Exp No: 5) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Experiments on Packet capture tool: Wireshark) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n
+0 30 m
+481.8898 30 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 30 l
+S
+n
+481.8898 0 m
+481.8898 30 l
+S
+n
+96.37795 0 m
+96.37795 30 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 747.1969 cm
+Q
+q
+1 0 0 1 56.69291 721.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+31.044 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(AIM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 685.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 19 Tm
+/F3 11 Tf
+15 TL
+(To understand the features of Wireshark as a packet capture tool and to understand the encapsulation of) Tj
+T*
+(information at the various layers of a protocol stack.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 659.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+180.557 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(ALGORITHM / PROCEDURE:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 638.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Install and open Wireshark. The home screen lists all the network interfaces with a small activity graph.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 620.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Double click the active interface \(Ethernet / Wi-Fi\) to start the capture.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 587.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Generate some traffic: open a website in the browser, run ) Tj
+/F4 9.5 Tf
+(ping google.com) Tj
+/F3 11 Tf
+( and ) Tj
+/F4 9.5 Tf
+(nslookup) Tj
+T*
+(example.com) Tj
+/F3 11 Tf
+( in the Command Prompt.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 569.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Stop the capture using the red square button.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 536.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Apply display filters in the filter bar, for example ) Tj
+/F4 9.5 Tf
+(icmp) Tj
+/F3 11 Tf
+(, ) Tj
+/F4 9.5 Tf
+(dns) Tj
+/F3 11 Tf
+(, ) Tj
+/F4 9.5 Tf
+(tcp.port == 80) Tj
+/F3 11 Tf
+(, ) Tj
+/F4 9.5 Tf
+(ip.addr ==) Tj
+T*
+(192.168.1.25) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 503.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(6.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Select one packet and expand its layers in the ) Tj
+/F2 11 Tf
+(Packet Details) Tj
+/F3 11 Tf
+( pane. Study the Frame, Ethernet II,) Tj
+T*
+(Internet Protocol, TCP / ICMP headers.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 485.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(7.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Select any header field and see the corresponding bytes highlighted in the ) Tj
+/F2 11 Tf
+(Packet Bytes) Tj
+/F3 11 Tf
+( pane.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 452.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(8.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Use ) Tj
+/F2 11 Tf
+(Analyze > Follow > TCP Stream) Tj
+/F3 11 Tf
+( to follow the full TCP conversation and note the three-way) Tj
+T*
+(handshake \(SYN, SYN-ACK, ACK\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 434.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(9.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Save the capture using ) Tj
+/F2 11 Tf
+(File > Save As \(.pcapng\)) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 412.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(Features of Wireshark) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 378.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+<7f> Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 19 Tm
+/F3 11 Tf
+15 TL
+(Captures live packets from Ethernet, Wi-Fi, loopback and other interfaces and also reads saved .pcap) Tj
+T*
+(files.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 360.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+<7f> Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Capture filters \(before capture\) and display filters \(after capture\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 342.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+<7f> Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Colouring rules to identify the protocols easily \(TCP, UDP, ICMP, ARP, HTTP ...\).) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 324.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+<7f> Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Shows all the protocol headers layer by layer with the raw bytes.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 306.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+<7f> Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(Statistics tools like Conversations, Protocol Hierarchy and I/O Graph.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 180.1969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 123 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Layer) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78.28346 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Protocol example) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 174.6614 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(PDU name) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 271.0394 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Header added) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Application) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78.28346 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(HTTP, DNS) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 174.6614 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Data / Message) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 271.0394 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Application header) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Transport) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78.28346 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(TCP, UDP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 174.6614 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Segment / Datagram) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 271.0394 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Port numbers, sequence no. \(TCP 20 B, UDP 8 B\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Network) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78.28346 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(IP, ICMP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 174.6614 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Packet) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 271.0394 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Source and destination IP address \(20 B\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Data link) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78.28346 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Ethernet) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 174.6614 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Frame) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 271.0394 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Source and destination MAC \(14 B\) + FCS \(4 B\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Physical) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 78.28346 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(UTP, Wi-Fi) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 174.6614 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Bits) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 271.0394 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(None - only signals) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 123 m
+481.8898 123 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 123 l
+S
+n
+481.8898 0 m
+481.8898 123 l
+S
+n
+0 102.5 m
+481.8898 102.5 l
+S
+n
+0 82 m
+481.8898 82 l
+S
+n
+0 61.5 m
+481.8898 61.5 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+72.28346 0 m
+72.28346 123 l
+S
+n
+168.6614 0 m
+168.6614 123 l
+S
+n
+265.0394 0 m
+265.0394 123 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 154.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+69.316 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(DIAGRAM:) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+5 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Length 12871
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(2) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 610.1969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 4 155 Tm
+(Application layer) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+130 148 100 20 re
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 168.892 154 Tm
+(DATA) Tj
+T*
+ET
+Q
+q
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 431.5 155 Tm
+(Data) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+180 148 m
+180 138 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+180 138 m
+181.9471 142.6053 l
+178.0529 142.6053 l
+h
+B*
+Q
+q
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 4 121 Tm
+(Transport layer) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+130 114 160 20 re
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 164.748 120 Tm
+(TCP/ICMP header + DATA) Tj
+T*
+ET
+Q
+q
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 425.601 121 Tm
+(Segment) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+180 114 m
+180 104 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+180 104 m
+181.9471 108.6053 l
+178.0529 108.6053 l
+h
+B*
+Q
+q
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 4 87 Tm
+(Network layer) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+130 80 220 20 re
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 189.08 86 Tm
+(IP header | TCP header | DATA) Tj
+T*
+ET
+Q
+q
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 428.4357 87 Tm
+(Packet) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+180 80 m
+180 70 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+180 70 m
+181.9471 74.6053 l
+178.0529 74.6053 l
+h
+B*
+Q
+q
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 4 53 Tm
+(Data link layer) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+130 46 300 20 re
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 222.468 52 Tm
+(Eth header | IP | TCP | DATA | FCS) Tj
+T*
+ET
+Q
+q
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 428.6695 53 Tm
+(Frame) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+180 46 m
+180 36 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+180 36 m
+181.9471 40.6053 l
+178.0529 40.6053 l
+h
+B*
+Q
+q
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+BT
+/F2 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 4 19 Tm
+(Physical layer) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+130 12 300 20 re
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 244 18 Tm
+(0 1 0 1 1 0 0 1 0 1 1 ...) Tj
+T*
+ET
+Q
+q
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 433.387 19 Tm
+(Bits) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 595.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+103.8599 0 Td
+(Fig 1: Encapsulation of data as it moves down the protocol stack) Tj
+T*
+-103.8599 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 569.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+58.5 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(OUTPUT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 406.4769 cm
+q
+0.168627 0.341176 0.592157 rg
+n
+0 156.72 481.8898 -12.36 re
+f*
+0.909804 0.909804 0.909804 rg
+n
+0 144.36 481.8898 -12.36 re
+f*
+0.854902 0.933333 1 rg
+n
+0 132 481.8898 -12 re
+f*
+0.854902 0.933333 1 rg
+n
+0 120 481.8898 -12 re
+f*
+0.905882 0.901961 1 rg
+n
+0 108 481.8898 -12 re
+f*
+0.905882 0.901961 1 rg
+n
+0 96 481.8898 -12 re
+f*
+0.905882 0.901961 1 rg
+n
+0 84 481.8898 -12 re
+f*
+0.894118 1 0.780392 rg
+n
+0 72 481.8898 -12 re
+f*
+0.905882 0.901961 1 rg
+n
+0 60 481.8898 -12 re
+f*
+0.894118 1 0.780392 rg
+n
+0 48 481.8898 -12 re
+f*
+0.988235 0.878431 1 rg
+n
+0 36 481.8898 -12 re
+f*
+0.203922 0.396078 0.643137 rg
+n
+0 36 481.8898 -12 re
+f*
+0.988235 0.878431 1 rg
+n
+0 24 481.8898 -12 re
+f*
+0.980392 0.941176 0.843137 rg
+n
+0 12 481.8898 -12 re
+f*
+1 1 1 rg
+BT
+/F6 7.3 Tf
+8.76 TL
+ET
+BT
+1 0 0 1 3 147.62 Tm
+(Capturing from Ethernet - Wireshark) Tj
+T*
+ET
+0 0 0 rg
+BT
+1 0 0 1 3 135.26 Tm
+(No.) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 135.26 Tm
+(Time) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 135.26 Tm
+(Source) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 135.26 Tm
+(Destination) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 135.26 Tm
+(Protocol) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 135.26 Tm
+(Len) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 135.26 Tm
+(Info) Tj
+T*
+ET
+BT
+/F1 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 3 123.2 Tm
+(1) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 123.2 Tm
+(0.000000) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 123.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 123.2 Tm
+(192.168.1.1) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 123.2 Tm
+(DNS) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 123.2 Tm
+(70) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 123.2 Tm
+(Standard query 0x3a1c A example.com) Tj
+T*
+ET
+BT
+1 0 0 1 3 111.2 Tm
+(2) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 111.2 Tm
+(0.012431) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 111.2 Tm
+(192.168.1.1) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 111.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 111.2 Tm
+(DNS) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 111.2 Tm
+(86) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 111.2 Tm
+(Standard query response 0x3a1c A example.com A 93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 3 99.2 Tm
+(3) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 99.2 Tm
+(0.013102) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 99.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 99.2 Tm
+(93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 99.2 Tm
+(TCP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 99.2 Tm
+(66) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 99.2 Tm
+(51322 > 80 [SYN] Seq=0 Win=64240 Len=0 MSS=1460) Tj
+T*
+ET
+BT
+1 0 0 1 3 87.2 Tm
+(4) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 87.2 Tm
+(0.041875) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 87.2 Tm
+(93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 87.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 87.2 Tm
+(TCP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 87.2 Tm
+(66) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 87.2 Tm
+(80 > 51322 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0) Tj
+T*
+ET
+BT
+1 0 0 1 3 75.2 Tm
+(5) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 75.2 Tm
+(0.041932) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 75.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 75.2 Tm
+(93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 75.2 Tm
+(TCP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 75.2 Tm
+(54) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 75.2 Tm
+(51322 > 80 [ACK] Seq=1 Ack=1 Win=131328 Len=0) Tj
+T*
+ET
+BT
+1 0 0 1 3 63.2 Tm
+(6) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 63.2 Tm
+(0.042210) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 63.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 63.2 Tm
+(93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 63.2 Tm
+(HTTP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 63.2 Tm
+(142) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 63.2 Tm
+(GET / HTTP/1.1) Tj
+T*
+ET
+BT
+1 0 0 1 3 51.2 Tm
+(7) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 51.2 Tm
+(0.071655) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 51.2 Tm
+(93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 51.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 51.2 Tm
+(TCP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 51.2 Tm
+(54) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 51.2 Tm
+(80 > 51322 [ACK] Seq=1 Ack=89 Win=65535 Len=0) Tj
+T*
+ET
+BT
+1 0 0 1 3 39.2 Tm
+(8) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 39.2 Tm
+(0.093340) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 39.2 Tm
+(93.184.216.34) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 39.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 39.2 Tm
+(HTTP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 39.2 Tm
+(1294) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 39.2 Tm
+(HTTP/1.1 200 OK  \(text/html\)) Tj
+T*
+ET
+1 1 1 rg
+BT
+1 0 0 1 3 27.2 Tm
+(9) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 27.2 Tm
+(1.402118) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 27.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 27.2 Tm
+(142.250.195.78) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 27.2 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 27.2 Tm
+(74) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 27.2 Tm
+(Echo \(ping\) request  id=0x0001, seq=21/5376, ttl=128) Tj
+T*
+ET
+0 0 0 rg
+BT
+1 0 0 1 3 15.2 Tm
+(10) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 15.2 Tm
+(1.416875) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 15.2 Tm
+(142.250.195.78) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 15.2 Tm
+(192.168.1.25) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 15.2 Tm
+(ICMP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 15.2 Tm
+(74) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 15.2 Tm
+(Echo \(ping\) reply    id=0x0001, seq=21/5376, ttl=117) Tj
+T*
+ET
+BT
+1 0 0 1 3 3.2 Tm
+(11) Tj
+T*
+ET
+BT
+1 0 0 1 31.91339 3.2 Tm
+(2.118004) Tj
+T*
+ET
+BT
+1 0 0 1 75.28346 3.2 Tm
+(c4:e9:84:2a:5b:10) Tj
+T*
+ET
+BT
+1 0 0 1 147.5669 3.2 Tm
+(Broadcast) Tj
+T*
+ET
+BT
+1 0 0 1 219.8504 3.2 Tm
+(ARP) Tj
+T*
+ET
+BT
+1 0 0 1 263.2205 3.2 Tm
+(60) Tj
+T*
+ET
+BT
+1 0 0 1 292.1339 3.2 Tm
+(Who has 192.168.1.25? Tell 192.168.1.1) Tj
+T*
+ET
+q
+1 J
+1 j
+0.784314 0.784314 0.784314 RG
+0.25 w
+n
+0 144.36 m
+481.8898 144.36 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 144.36 l
+S
+n
+481.8898 0 m
+481.8898 144.36 l
+S
+n
+0 132 m
+481.8898 132 l
+S
+n
+0 120 m
+481.8898 120 l
+S
+n
+0 108 m
+481.8898 108 l
+S
+n
+0 96 m
+481.8898 96 l
+S
+n
+0 84 m
+481.8898 84 l
+S
+n
+0 72 m
+481.8898 72 l
+S
+n
+0 60 m
+481.8898 60 l
+S
+n
+0 48 m
+481.8898 48 l
+S
+n
+0 36 m
+481.8898 36 l
+S
+n
+0 24 m
+481.8898 24 l
+S
+n
+0 12 m
+481.8898 12 l
+S
+n
+28.91339 0 m
+28.91339 144.36 l
+S
+n
+72.28346 0 m
+72.28346 144.36 l
+S
+n
+144.5669 0 m
+144.5669 144.36 l
+S
+n
+216.8504 0 m
+216.8504 144.36 l
+S
+n
+260.2205 0 m
+260.2205 144.36 l
+S
+n
+289.1339 0 m
+289.1339 144.36 l
+S
+0.333333 0.333333 0.333333 RG
+0.8 w
+n
+0 156.72 m
+481.8898 156.72 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 156.72 l
+S
+n
+481.8898 0 m
+481.8898 156.72 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 391.4769 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+105.5399 0 Td
+(Packet List pane - captured packets \(colours show the protocol\)) Tj
+T*
+-105.5399 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 113.4769 cm
+1 1 1 rg
+0.466667 0.466667 0.466667 RG
+0.8 w
+n
+0 0 481.8898 270 re
+B*
+0.901961 0.901961 0.901961 rg
+n
+0 255 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 259.5 Tm
+(Packet Details - Frame 9 \(ICMP Echo request\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 244.6 Tm
+(v Frame 9: 74 bytes on wire \(592 bits\), 74 bytes captured \(592 bits\) on interface \\Device\\NPF_{8F3A21B0}) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 234.8 Tm
+(  , id 0) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 225 Tm
+(    Arrival Time: Oct  7, 2026 20:57:38.402118000 India Standard Time) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 215.2 Tm
+(    Frame Length: 74 bytes \(592 bits\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 205.4 Tm
+(    Protocols in frame: eth:ethertype:ip:icmp:data) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 195.6 Tm
+(v Ethernet II, Src: 00:1a:2b:3c:4d:5e, Dst: c4:e9:84:2a:5b:10) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+(    Destination: c4:e9:84:2a:5b:10) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+(    Source: 00:1a:2b:3c:4d:5e) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(    Type: IPv4 \(0x0800\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(v Internet Protocol Version 4, Src: 192.168.1.25, Dst: 142.250.195.78) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(    0100 .... = Version: 4) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+(    .... 0101 = Header Length: 20 bytes \(5\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(    Total Length: 60) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(    Identification: 0x7a31 \(31281\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(    Time to Live: 128) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(    Protocol: ICMP \(1\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(    Source Address: 192.168.1.25) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(    Destination Address: 142.250.195.78) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(v Internet Control Message Protocol) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(    Type: 8 \(Echo \(ping\) request\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(    Code: 0) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(    Checksum: 0x4d5a [correct]) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    Identifier \(BE\): 1 \(0x0001\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(    Sequence Number \(BE\): 21 \(0x0015\)) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(    Data \(32 bytes\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 104.4769 cm
+Q
+endstream
+endobj
+14 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 3835
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(3) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 711.1969 cm
+1 1 1 rg
+0.466667 0.466667 0.466667 RG
+0.8 w
+n
+0 0 481.8898 74 re
+B*
+0.901961 0.901961 0.901961 rg
+n
+0 59 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 63.5 Tm
+(Packet Bytes - Frame 9) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(0000  c4 e9 84 2a 5b 10 00 1a 2b 3c 4d 5e 08 00 45 00   ...*[...+<M^..E.) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(0010  00 3c 7a 31 00 00 80 01 00 00 c0 a8 01 19 8e fa   .<z1............) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(0020  c3 4e 08 00 4d 5a 00 01 00 15 61 62 63 64 65 66   .N..MZ....abcdef) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(0030  67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76   ghijklmnopqrstuv) Tj
+T*
+ET
+0.066667 0.066667 0.066667 rg
+BT
+/F4 7.4 Tf
+8.88 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(0040  77 61 62 63 64 65 66 67 68 69                     wabcdefghi) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 702.1969 cm
+Q
+q
+1 0 0 1 56.69291 590.1969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 112 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 95.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Layer) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 87.92126 95.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Bytes in the frame) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 95.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Observed value) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Ethernet II) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 87.92126 75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(00 - 13 \(14 bytes\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 75.75 cm
+q
+BT
+1 0 0 1 0 2.7 Tm
+11 TL
+/F4 8.3 Tf
+0 0 0 rg
+(c4:e9:84:2a:5b:10 <) Tj
+(- 00:1a:2b:3c:4d:5e, type 0x0800) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 49.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(IPv4) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 87.92126 49.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(14 - 33 \(20 bytes\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 45 cm
+q
+BT
+1 0 0 1 0 13.7 Tm
+11 TL
+/F4 8.3 Tf
+0 0 0 rg
+(192.168.1.25 -) Tj
+(> 142.250.195.78, TTL 128, protocol 1) Tj
+T*
+(\(ICMP\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(ICMP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 87.92126 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(34 - 41 \(8 bytes\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 25.25 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(Type 8, Code 0, id 1, seq 21) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Data) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 87.92126 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(42 - 73 \(32 bytes\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 208.3937 4.75 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.7 Tm
+/F4 8.3 Tf
+11 TL
+(abcdefghijklmnopqrstuvwabcdefghi) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 112 m
+481.8898 112 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 112 l
+S
+n
+481.8898 0 m
+481.8898 112 l
+S
+n
+0 91.5 m
+481.8898 91.5 l
+S
+n
+0 71 m
+481.8898 71 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+81.92126 0 m
+81.92126 112 l
+S
+n
+202.3937 0 m
+202.3937 112 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 582.1969 cm
+Q
+q
+1 0 0 1 56.69291 556.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+56.342 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(RESULT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 520.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 19 Tm
+/F3 11 Tf
+15 TL
+(Thus the features of Wireshark were studied. Packets were captured and the encapsulation of data at the Data) Tj
+T*
+(link \(Ethernet\), Network \(IP\), Transport \(TCP\) and ICMP layers was observed in the packet details.) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+16 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000127 00000 n 
+0000000176 00000 n 
+0000008369 00000 n 
+0000008568 00000 n 
+0000008652 00000 n 
+0000008759 00000 n 
+0000008867 00000 n 
+0000008976 00000 n 
+0000009082 00000 n 
+0000009193 00000 n 
+0000009306 00000 n 
+0000022231 00000 n 
+0000022432 00000 n 
+0000026320 00000 n 
+trailer
+<<
+/Size 17
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+26521
+%%EOF
