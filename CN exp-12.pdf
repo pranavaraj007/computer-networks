@@ -1,0 +1,4356 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 5
+/Kids [ 5 0 R 14 0 R 16 0 R 18 0 R 20 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 7687
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(1) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 741.1969 cm
+q
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 16 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 0.5 Tm
+/F2 11.5 Tf
+12 TL
+(Exp No: 12) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 8 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 16.5 Tm
+/F2 11.5 Tf
+14 TL
+(End-End Communication at Transport Layer - Echo Client Server and) Tj
+T*
+(Chat) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+1 w
+n
+0 44 m
+481.8898 44 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 44 l
+S
+n
+481.8898 0 m
+481.8898 44 l
+S
+n
+96.37795 0 m
+96.37795 44 l
+S
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 733.1969 cm
+Q
+q
+1 0 0 1 56.69291 707.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+31.044 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(AIM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 671.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 19 Tm
+/F3 11 Tf
+15 TL
+(To implement \(a\) an echo client-server using TCP and UDP sockets and \(b\) a chat program using socket) Tj
+T*
+(programming, for end-to-end communication at the transport layer.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 645.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+180.557 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(ALGORITHM / PROCEDURE:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 623.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(a1\) TCP echo server and client) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 589.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F2 11 Tf
+0 0 0 rg
+(Server) Tj
+/F3 11 Tf
+(: create a TCP socket with ) Tj
+/F4 9.5 Tf
+(socket\(AF_INET, SOCK_STREAM\)) Tj
+/F3 11 Tf
+(, ) Tj
+/F4 9.5 Tf
+(bind\(\)) Tj
+/F3 11 Tf
+( it to an IP address and) Tj
+T*
+(port \(5000\), call ) Tj
+/F4 9.5 Tf
+(listen\(\)) Tj
+/F3 11 Tf
+( and wait in ) Tj
+/F4 9.5 Tf
+(accept\(\)) Tj
+/F3 11 Tf
+( for the client.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 571.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F2 11 Tf
+0 0 0 rg
+(Client) Tj
+/F3 11 Tf
+(: create a TCP socket and call ) Tj
+/F4 9.5 Tf
+(connect\(\)) Tj
+/F3 11 Tf
+( with the IP address and port of the server.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 538.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(The client sends a message using ) Tj
+/F4 9.5 Tf
+(send\(\)) Tj
+/F3 11 Tf
+(. The server reads it with ) Tj
+/F4 9.5 Tf
+(recv\(\)) Tj
+/F3 11 Tf
+(, displays it and sends the) Tj
+T*
+(same data back using ) Tj
+/F4 9.5 Tf
+(sendall\(\)) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 520.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(The client receives the echoed message and displays it. This is repeated for each message.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 502.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(5.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Close the sockets using ) Tj
+/F4 9.5 Tf
+(close\(\)) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 480.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(a2\) UDP echo server and client) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 446.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F2 11 Tf
+0 0 0 rg
+(Server) Tj
+/F3 11 Tf
+(: create a UDP socket with ) Tj
+/F4 9.5 Tf
+(SOCK_DGRAM) Tj
+/F3 11 Tf
+( and ) Tj
+/F4 9.5 Tf
+(bind\(\)) Tj
+/F3 11 Tf
+( it to port 6000. No ) Tj
+/F4 9.5 Tf
+(listen\(\)) Tj
+/F3 11 Tf
+( / ) Tj
+/F4 9.5 Tf
+(accept\(\)) Tj
+/F3 11 Tf
+T*
+(is needed because UDP is connectionless.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 428.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F2 11 Tf
+0 0 0 rg
+(Client) Tj
+/F3 11 Tf
+(: create a UDP socket and send the message to the server address with ) Tj
+/F4 9.5 Tf
+(sendto\(\)) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 395.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 19 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(The server receives the datagram and the client address with ) Tj
+/F4 9.5 Tf
+(recvfrom\(\)) Tj
+/F3 11 Tf
+( and sends it back using) Tj
+T*
+/F4 9.5 Tf
+(sendto\(\)) Tj
+/F3 11 Tf
+(.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 377.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(4.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(The client receives the echo with ) Tj
+/F4 9.5 Tf
+(recvfrom\(\)) Tj
+/F3 11 Tf
+( and displays it. Close the sockets.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 355.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(b\) Chat program) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 336.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(1.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 4 Tm
+/F3 11 Tf
+15 TL
+(The chat server creates a TCP socket on port 7000 and waits for a client. The client connects to it.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 303.1969 cm
+q
+BT
+1 0 0 1 6 19 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(2.) Tj
+ET
+0 0 0 rg
+BT
+1 0 0 1 24 19 Tm
+/F3 11 Tf
+15 TL
+(The client types a message and sends it. The server displays it, then the server user types the reply and) Tj
+T*
+(sends it back.) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 285.1969 cm
+q
+BT
+1 0 0 1 6 4 Tm
+/F1 10 Tf
+12 TL
+0 0 0 rg
+(3.) Tj
+ET
+BT
+1 0 0 1 24 4 Tm
+-0.031016 Tw
+15 TL
+/F3 11 Tf
+0 0 0 rg
+(Messages are exchanged alternately until either side sends the word ) Tj
+/F4 9.5 Tf
+(exit) Tj
+/F3 11 Tf
+(. Then both sockets are closed.) Tj
+T*
+0 Tw
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 159.1969 cm
+q
+0.933333 0.933333 0.933333 rg
+n
+0 123 481.8898 -20.5 re
+f*
+0 0 0 rg
+BT
+/F1 10 Tf
+12 TL
+ET
+q
+1 0 0 1 6 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(Point) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(TCP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 106.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 10 Tf
+12.5 TL
+(UDP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Socket type) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(SOCK_STREAM) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 86 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(SOCK_DGRAM) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Connection) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Connection oriented \(3-way handshake\)) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 65.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Connectionless) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Reliability) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Reliable, ordered delivery) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 45 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(No guarantee) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Server calls) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(bind, listen, accept, recv, send) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 24.5 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(bind, recvfrom, sendto) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 6 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(Used in) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 102.378 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(HTTP, FTP, SMTP) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 304.7717 4 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F3 10 Tf
+12.5 TL
+(DNS, DHCP, streaming) Tj
+T*
+ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+0.6 w
+n
+0 123 m
+481.8898 123 l
+S
+n
+0 0 m
+481.8898 0 l
+S
+n
+0 0 m
+0 123 l
+S
+n
+481.8898 0 m
+481.8898 123 l
+S
+n
+0 102.5 m
+481.8898 102.5 l
+S
+n
+0 82 m
+481.8898 82 l
+S
+n
+0 61.5 m
+481.8898 61.5 l
+S
+n
+0 41 m
+481.8898 41 l
+S
+n
+0 20.5 m
+481.8898 20.5 l
+S
+n
+96.37795 0 m
+96.37795 123 l
+S
+n
+298.7717 0 m
+298.7717 123 l
+S
+Q
+Q
+Q
+endstream
+endobj
+5 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F6
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Length 11813
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(2) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 769.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+69.316 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(DIAGRAM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 547.1969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 65.8605 204 Tm
+(TCP Server) Tj
+T*
+ET
+Q
+q
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 368.8 204 Tm
+(TCP Client) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 168 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 69.6 173.5 Tm
+(socket\(\)) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 142 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 74.7 147.5 Tm
+(bind\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 168 m
+90 160 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 160 m
+91.94709 164.6053 l
+88.05291 164.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 116 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 69.6 121.5 Tm
+(listen\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 142 m
+90 134 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 134 m
+91.94709 138.6053 l
+88.05291 138.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 90 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 69.6 95.5 Tm
+(accept\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 116 m
+90 108 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 108 m
+91.94709 112.6053 l
+88.05291 112.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 64 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 74.7 69.5 Tm
+(recv\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 90 m
+90 82 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 82 m
+91.94709 86.6053 l
+88.05291 86.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 38 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 74.7 43.5 Tm
+(send\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 64 m
+90 56 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 56 m
+91.94709 60.6053 l
+88.05291 60.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 12 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 72.15 17.5 Tm
+(close\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 38 m
+90 30 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 30 m
+91.94709 34.6053 l
+88.05291 34.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 168 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 371.4898 173.5 Tm
+(socket\(\)) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 90 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 368.9398 95.5 Tm
+(connect\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 168 m
+391.8898 108 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 108 m
+393.8369 112.6053 l
+389.9427 112.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 64 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 376.5898 69.5 Tm
+(send\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 90 m
+391.8898 82 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 82 m
+393.8369 86.6053 l
+389.9427 86.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 38 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 376.5898 43.5 Tm
+(recv\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 64 m
+391.8898 56 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 56 m
+393.8369 60.6053 l
+389.9427 60.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 12 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 374.0398 17.5 Tm
+(close\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 38 m
+391.8898 30 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 30 m
+393.8369 34.6053 l
+389.9427 34.6053 l
+h
+B*
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+341.8898 99 m
+140 99 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+140 99 m
+144.6053 97.05291 l
+144.6053 100.9471 l
+h
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 179.2969 102 Tm
+(connection request \(3-way handshake\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+341.8898 73 m
+140 73 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+140 73 m
+144.6053 71.05291 l
+144.6053 74.94709 l
+h
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 234.2809 76 Tm
+(data) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+140 47 m
+341.8898 47 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 47 m
+337.2845 48.94709 l
+337.2845 45.05291 l
+h
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 221.3969 50 Tm
+(echo of data) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 532.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+123.5949 0 Td
+(Fig 1: Socket calls in TCP client-server communication) Tj
+T*
+-123.5949 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 360.1969 cm
+q
+1 0 0 1 0 0 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F3 10 Tf
+12 TL
+ET
+BT
+/F3 10 Tf
+12 TL
+ET
+q
+1 0 0 1 0 0 cm
+q
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 65.59925 152 Tm
+(UDP Server) Tj
+T*
+ET
+Q
+q
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+BT
+/F2 9.5 Tf
+11.4 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 368.5388 152 Tm
+(UDP Client) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 116 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 69.6 121.5 Tm
+(socket\(\)) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 90 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 74.7 95.5 Tm
+(bind\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 116 m
+90 108 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 108 m
+91.94709 112.6053 l
+88.05291 112.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 64 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 64.5 69.5 Tm
+(recvfrom\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 90 m
+90 82 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 82 m
+91.94709 86.6053 l
+88.05291 86.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 38 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 69.6 43.5 Tm
+(sendto\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 64 m
+90 56 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 56 m
+91.94709 60.6053 l
+88.05291 60.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+40 12 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 72.15 17.5 Tm
+(close\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+90 38 m
+90 30 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+90 30 m
+91.94709 34.6053 l
+88.05291 34.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 116 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 371.4898 121.5 Tm
+(socket\(\)) Tj
+T*
+ET
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 64 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 371.4898 69.5 Tm
+(sendto\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 116 m
+391.8898 82 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 82 m
+393.8369 86.6053 l
+389.9427 86.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 38 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 366.3898 43.5 Tm
+(recvfrom\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 64 m
+391.8898 56 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 56 m
+393.8369 60.6053 l
+389.9427 60.6053 l
+h
+B*
+Q
+q
+1 1 1 rg
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 12 100 18 re
+B*
+Q
+q
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+BT
+/F4 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 374.0398 17.5 Tm
+(close\(\)) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 38 m
+391.8898 30 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+391.8898 30 m
+393.8369 34.6053 l
+389.9427 34.6053 l
+h
+B*
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+341.8898 73 m
+140 73 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+140 73 m
+144.6053 71.05291 l
+144.6053 74.94709 l
+h
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 226.0609 76 Tm
+(datagram) Tj
+T*
+ET
+Q
+q
+0 0 0 RG
+1 w
+0 J
+0 j
+[ 3 2 ] 0 d
+n
+140 47 m
+341.8898 47 l
+S
+Q
+q
+0 0 0 rg
+0 0 0 RG
+0.5 w
+0 J
+0 j
+[ ] 0 d
+n
+341.8898 47 m
+337.2845 48.94709 l
+337.2845 45.05291 l
+h
+B*
+Q
+q
+BT
+/F3 8 Tf
+9.6 TL
+ET
+BT
+/F3 8 Tf
+9.6 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 213.1769 50 Tm
+(echo of datagram) Tj
+T*
+ET
+Q
+Q
+Q
+Q
+q
+1 0 0 1 56.69291 345.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2 Tm
+/F2 10 Tf
+12 TL
+123.3199 0 Td
+(Fig 2: Socket calls in UDP client-server communication) Tj
+T*
+-123.3199 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 319.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+72.93 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(PROGRAM:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 131.3969 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 181.8 re
+B*
+1 1 1 rg
+n
+0 166.8 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 166.8 m
+481.8898 166.8 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 171.3 Tm
+(echo_tcp_server.py) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(import socket) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(s = socket.socket\(socket.AF_INET, socket.SOCK_STREAM\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+(s.bind\(\("127.0.0.1", 5000\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(s.listen\(1\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(print\("TCP Echo Server listening on port 5000 ..."\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(conn, addr = s.accept\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(print\("Connected by", addr\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(while True:) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(    data = conn.recv\(1024\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(    if not data:) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(        break) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(    print\("Received :", data.decode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(    conn.sendall\(data\)               # echo back) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(conn.close\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(s.close\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(print\("Connection closed."\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 122.3969 cm
+Q
+q
+1 0 0 1 56.69291 58.19685 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 64.2 re
+B*
+1 1 1 rg
+n
+0 49.2 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 49.2 m
+481.8898 49.2 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 53.7 Tm
+(echo_tcp_client.py) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(import socket) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(c = socket.socket\(socket.AF_INET, socket.SOCK_STREAM\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(c.connect\(\("127.0.0.1", 5000\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(for msg in ["Hello Server", "Computer Networks Lab", "bye"]:) Tj
+T*
+ET
+Q
+endstream
+endobj
+14 0 obj
+<<
+/Contents 13 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 6810
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(3) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 720.9969 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 64.2 re
+B*
+1 1 1 rg
+n
+0 49.2 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 49.2 m
+481.8898 49.2 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 53.7 Tm
+(echo_tcp_client.py \(contd.\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(    c.sendall\(msg.encode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    print\("Sent     :", msg\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(    print\("Echoed   :", c.recv\(1024\).decode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(c.close\(\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 711.9969 cm
+Q
+q
+1 0 0 1 56.69291 598.7969 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 113.2 re
+B*
+1 1 1 rg
+n
+0 98.2 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 98.2 m
+481.8898 98.2 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 102.7 Tm
+(echo_udp_server.py) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(import socket) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(s = socket.socket\(socket.AF_INET, socket.SOCK_DGRAM\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(s.bind\(\("127.0.0.1", 6000\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(print\("UDP Echo Server waiting on port 6000 ..."\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(for _ in range\(2\):) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(    data, addr = s.recvfrom\(1024\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    print\("Received from", addr, ":", data.decode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(    s.sendto\(data, addr\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(s.close\(\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 589.7969 cm
+Q
+q
+1 0 0 1 56.69291 486.3969 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 103.4 re
+B*
+1 1 1 rg
+n
+0 88.4 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 88.4 m
+481.8898 88.4 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 92.9 Tm
+(echo_udp_client.py) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(import socket) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(c = socket.socket\(socket.AF_INET, socket.SOCK_DGRAM\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(for msg in ["Hello UDP", "Datagram test"]:) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(    c.sendto\(msg.encode\(\), \("127.0.0.1", 6000\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(    data, _ = c.recvfrom\(1024\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    print\("Sent     :", msg\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(    print\("Echoed   :", data.decode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(c.close\(\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 477.3969 cm
+Q
+q
+1 0 0 1 56.69291 266.1969 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 211.2 re
+B*
+1 1 1 rg
+n
+0 196.2 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 196.2 m
+481.8898 196.2 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 200.7 Tm
+(chat_server.py) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 185.8 Tm
+(import socket) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 176 Tm
+(s = socket.socket\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 166.2 Tm
+(s.bind\(\("127.0.0.1", 7000\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 156.4 Tm
+(s.listen\(1\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(print\("Chat server started. Waiting for client ..."\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+(conn, addr = s.accept\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(print\("Client connected:", addr\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(while True:) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(    msg = conn.recv\(1024\).decode\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(    if not msg or msg.lower\(\) == "exit":) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(        break) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(    print\("Client :", msg\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(    reply = input\("Server : "\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(    conn.send\(reply.encode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(    if reply.lower\(\) == "exit":) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(        break) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(conn.close\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(s.close\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(print\("Chat ended."\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 257.1969 cm
+Q
+q
+1 0 0 1 56.69291 85.19685 cm
+1 1 1 rg
+0 0 0 RG
+0.8 w
+n
+0 0 481.8898 172 re
+B*
+1 1 1 rg
+n
+0 157 481.8898 15 re
+f*
+0 0 0 RG
+n
+0 157 m
+481.8898 157 l
+S
+BT
+/F5 8.5 Tf
+10.2 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 8 161.5 Tm
+(chat_client.py) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 146.6 Tm
+(import socket) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 136.8 Tm
+(c = socket.socket\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 127 Tm
+(c.connect\(\("127.0.0.1", 7000\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 117.2 Tm
+(print\("Connected to chat server. Type 'exit' to quit."\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 107.4 Tm
+(while True:) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(    msg = input\("Client : "\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(    c.send\(msg.encode\(\)\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(    if msg.lower\(\) == "exit":) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(        break) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(    reply = c.recv\(1024\).decode\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(    if reply.lower\(\) == "exit":) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(        break) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(    print\("Server :", reply\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(c.close\(\)) Tj
+T*
+ET
+0 0 0 rg
+BT
+/F4 7.8 Tf
+9.36 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(print\("Chat ended."\)) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 76.19685 cm
+Q
+endstream
+endobj
+16 0 obj
+<<
+/Contents 15 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 9882
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(4) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 769.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+58.5 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(OUTPUT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 747.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(a1\) TCP echo) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 649.5969 cm
+0.188235 0.039216 0.141176 rg
+0.188235 0.039216 0.141176 RG
+n
+0 0 481.8898 93.6 re
+f*
+0.235294 0.231373 0.215686 rg
+n
+0 78.6 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0.87451 0.858824 0.823529 rg
+BT
+1 0 0 1 8 83.1 Tm
+(pranavraj@pranavraj-VirtualBox: ~  \(Terminal 1 - Server\)) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(pranavraj@pranavraj-VirtualBox) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 115.44 68.2 Tm
+(:) Tj
+T*
+ET
+0.447059 0.623529 0.811765 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 120 68.2 Tm
+(~) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 124.56 68.2 Tm
+($ ) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 68.2 Tm
+(python3 echo_tcp_server.py) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(TCP Echo Server listening on port 5000 ...) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(Connected by \('127.0.0.1', 46248\)) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Received : Hello Server) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(Received : Computer Networks Lab) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Received : bye) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Connection closed.) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 640.5969 cm
+Q
+q
+1 0 0 1 56.69291 546.9969 cm
+0.188235 0.039216 0.141176 rg
+0.188235 0.039216 0.141176 RG
+n
+0 0 481.8898 93.6 re
+f*
+0.235294 0.231373 0.215686 rg
+n
+0 78.6 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0.87451 0.858824 0.823529 rg
+BT
+1 0 0 1 8 83.1 Tm
+(pranavraj@pranavraj-VirtualBox: ~  \(Terminal 2 - Client\)) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(pranavraj@pranavraj-VirtualBox) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 115.44 68.2 Tm
+(:) Tj
+T*
+ET
+0.447059 0.623529 0.811765 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 120 68.2 Tm
+(~) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 124.56 68.2 Tm
+($ ) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 68.2 Tm
+(python3 echo_tcp_client.py) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Sent     : Hello Server) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(Echoed   : Hello Server) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Sent     : Computer Networks Lab) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(Echoed   : Computer Networks Lab) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Sent     : bye) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Echoed   : bye) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 537.9969 cm
+Q
+q
+1 0 0 1 56.69291 515.9969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(a2\) UDP echo) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 447.7969 cm
+0.188235 0.039216 0.141176 rg
+0.188235 0.039216 0.141176 RG
+n
+0 0 481.8898 64.2 re
+f*
+0.235294 0.231373 0.215686 rg
+n
+0 49.2 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0.87451 0.858824 0.823529 rg
+BT
+1 0 0 1 8 53.7 Tm
+(pranavraj@pranavraj-VirtualBox: ~  \(Terminal 1 - Server\)) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(pranavraj@pranavraj-VirtualBox) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 115.44 38.8 Tm
+(:) Tj
+T*
+ET
+0.447059 0.623529 0.811765 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 120 38.8 Tm
+(~) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 124.56 38.8 Tm
+($ ) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 38.8 Tm
+(python3 echo_udp_server.py) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(UDP Echo Server waiting on port 6000 ...) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Received from \('127.0.0.1', 53205\) : Hello UDP) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Received from \('127.0.0.1', 53205\) : Datagram test) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 438.7969 cm
+Q
+q
+1 0 0 1 56.69291 364.7969 cm
+0.188235 0.039216 0.141176 rg
+0.188235 0.039216 0.141176 RG
+n
+0 0 481.8898 74 re
+f*
+0.235294 0.231373 0.215686 rg
+n
+0 59 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0.87451 0.858824 0.823529 rg
+BT
+1 0 0 1 8 63.5 Tm
+(pranavraj@pranavraj-VirtualBox: ~  \(Terminal 2 - Client\)) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(pranavraj@pranavraj-VirtualBox) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 115.44 48.6 Tm
+(:) Tj
+T*
+ET
+0.447059 0.623529 0.811765 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 120 48.6 Tm
+(~) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 124.56 48.6 Tm
+($ ) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 48.6 Tm
+(python3 echo_udp_client.py) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Sent     : Hello UDP) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(Echoed   : Hello UDP) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Sent     : Datagram test) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Echoed   : Datagram test) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 355.7969 cm
+Q
+q
+1 0 0 1 56.69291 333.7969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 2.5 Tm
+/F2 11.5 Tf
+14 TL
+(\(b\) Chat program) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 206.7969 cm
+0.188235 0.039216 0.141176 rg
+0.188235 0.039216 0.141176 RG
+n
+0 0 481.8898 123 re
+f*
+0.235294 0.231373 0.215686 rg
+n
+0 108 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0.87451 0.858824 0.823529 rg
+BT
+1 0 0 1 8 112.5 Tm
+(pranavraj@pranavraj-VirtualBox: ~  \(Terminal 1 - Chat Server\)) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 97.6 Tm
+(pranavraj@pranavraj-VirtualBox) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 115.44 97.6 Tm
+(:) Tj
+T*
+ET
+0.447059 0.623529 0.811765 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 120 97.6 Tm
+(~) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 124.56 97.6 Tm
+($ ) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 97.6 Tm
+(python3 chat_server.py) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 87.8 Tm
+(Chat server started. Waiting for client ...) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(Client connected: \('127.0.0.1', 43260\)) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(Client : Hi Server, this is Pranavraj) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Server : Hello Pranavraj, how can I help?) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(Client : Is the CN lab record ready?) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Server : Yes, the lab record is due on Friday.) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(Client : Thanks, bye) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Server : exit) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Chat ended.) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 197.7969 cm
+Q
+q
+1 0 0 1 56.69291 94.39685 cm
+0.188235 0.039216 0.141176 rg
+0.188235 0.039216 0.141176 RG
+n
+0 0 481.8898 103.4 re
+f*
+0.235294 0.231373 0.215686 rg
+n
+0 88.4 481.8898 15 re
+f*
+BT
+/F6 8 Tf
+9.6 TL
+ET
+0.87451 0.858824 0.823529 rg
+BT
+1 0 0 1 8 92.9 Tm
+(pranavraj@pranavraj-VirtualBox: ~  \(Terminal 2 - Chat Client\)) Tj
+T*
+ET
+0.541176 0.886275 0.203922 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 78 Tm
+(pranavraj@pranavraj-VirtualBox) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 115.44 78 Tm
+(:) Tj
+T*
+ET
+0.447059 0.623529 0.811765 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 120 78 Tm
+(~) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 124.56 78 Tm
+($ ) Tj
+T*
+ET
+1 1 1 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 133.68 78 Tm
+(python3 chat_client.py) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 68.2 Tm
+(Connected to chat server. Type 'exit' to quit.) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 58.4 Tm
+(Client : Hi Server, this is Pranavraj) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 48.6 Tm
+(Server : Hello Pranavraj, how can I help?) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 38.8 Tm
+(Client : Is the CN lab record ready?) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 29 Tm
+(Server : Yes, the lab record is due on Friday.) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 19.2 Tm
+(Client : Thanks, bye) Tj
+T*
+ET
+0.933333 0.933333 0.933333 rg
+BT
+/F4 7.6 Tf
+9.12 TL
+ET
+BT
+1 0 0 1 6 9.4 Tm
+(Chat ended.) Tj
+T*
+ET
+Q
+q
+1 0 0 1 56.69291 85.39685 cm
+Q
+q
+1 0 0 1 56.69291 81.39685 cm
+Q
+endstream
+endobj
+18 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+19 0 obj
+<<
+/Length 584
+>>
+stream
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+BT
+/F2 10 Tf
+12 TL
+ET
+BT
+1 0 0 1 454.8727 805.0394 Tm
+(241501145 -Pranavaraj.U) Tj
+T*
+ET
+BT
+/F3 9 Tf
+10.8 TL
+ET
+BT
+1 0 0 1 295.3878 31.1811 Tm
+(5) Tj
+T*
+ET
+q
+1 0 0 1 56.69291 769.1969 cm
+q
+0 0 0 rg
+0 0 0 RG
+n
+0 1.375 m
+56.342 1.375 l
+S
+BT
+1 0 0 1 0 3 Tm
+/F2 13 Tf
+16 TL
+(RESULT:) Tj
+T*
+ET
+Q
+Q
+q
+1 0 0 1 56.69291 733.1969 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 19 Tm
+/F3 11 Tf
+15 TL
+(Thus the echo client-server programs using TCP and UDP sockets and the chat program using socket) Tj
+T*
+(programming were implemented and executed successfully.) Tj
+T*
+ET
+Q
+Q
+endstream
+endobj
+20 0 obj
+<<
+/Contents 19 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000141 00000 n 
+0000000190 00000 n 
+0000007929 00000 n 
+0000008128 00000 n 
+0000008212 00000 n 
+0000008319 00000 n 
+0000008427 00000 n 
+0000008536 00000 n 
+0000008642 00000 n 
+0000008753 00000 n 
+0000008866 00000 n 
+0000020733 00000 n 
+0000020934 00000 n 
+0000027797 00000 n 
+0000027998 00000 n 
+0000037933 00000 n 
+0000038134 00000 n 
+0000038770 00000 n 
+trailer
+<<
+/Size 21
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+38971
+%%EOF
